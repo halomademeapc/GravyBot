@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Adding Custom Rules </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Adding Custom Rules ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="adding-custom-rules">Adding Custom Rules</h1>
+
+<p>Two interfaces are provided for adding your own rules: <a href="/api/GravyBot.IMessageRule-1.html"><code>IMessageRule</code></a> and <a href="/api/GravyBot.IAsyncMessageRule-1.html"><code>IAsyncMessageRule</code></a>.  These generic interfaces take one type parameter that is used to specify what type of incoming messages they will respond to.  If a rule can handle multiple types of incoming messages, simply implement the generic for those other message types.  This is especially useful if you have rules that can be triggered both from an incoming message or from a WebUI or other source.</p>
+<p><a href="/api/GravyBot.IAsyncMessageRule-1.html"><code>IAsyncMessageRule</code></a> has a boolean method <a href="/api/GravyBot.IAsyncMessageRule-1.html#GravyBot_IAsyncMessageRule_1_Matches__0_"><code>Matches(TMessage)</code></a> that is used for synchronous condition matching to determine whether or not an async rule should be processed.  This prevents the application from wasting threads on unnecessary tasks for rules that are not needed on a given message.</p>
+<p>Rules don't run in any specific order and have access to a scoped service container, so you have freedom to use DI to your heart's content.  You can also emit multiple messages using <code>yield return</code> as <a href="/api/GravyBot.IMessageRule-1.html"><code>IMessageRule</code></a> and <a href="/api/GravyBot.IAsyncMessageRule-1.html"><code>IAsyncMessageRule</code></a> implement <code>IEnumerable</code> and <code>IAsyncEnumerable</code> respectively.</p>
+<h2 id="creating-the-rule">Creating the Rule</h2>
+<p>Let's look at an example rule.  This excerpt is an abridged example from <a href="https://github.com/halomademeapc/ChatBeet">ChatBeet</a>.</p>
+<pre><code class="lang-csharp">public class ArtistRule : IAsyncMessageRule&lt;PrivateMessage&gt;
+{
+    private readonly IrcBotConfiguration config;
+    private readonly LastFmService lastFm;
+    private readonly Regex rgx;
+
+    public ArtistRule(LastFmService lastFm, IOptions&lt;IrcBotConfiguration&gt; options)
+    {
+        this.lastFm = lastFm;
+        config = options.Value;
+        rgx = new Regex($&quot;^{Regex.Escape(config.CommandPrefix)}artist (.*)&quot;, RegexOptions.IgnoreCase);
+    }
+
+    public bool Matches(PrivateMessage incomingMessage) =&gt; pattern.IsMatch(incomingMessage.Message);
+
+    public async IAsyncEnumerable&lt;IClientMessage&gt; RespondAsync(PrivateMessage incomingMessage)
+    {
+        var match = rgx.Match(incomingMessage.Message);
+        var artistName = match.Groups[1].Value.Trim();
+        var artist = await lastFm.GetArtistInfo(artistName);
+
+        if (artist != null)
+        {
+            yield return new PrivateMessage(incomingMessage.From, $&quot;{artist.Bio?.Summary}&quot;);
+
+            if (artist.Tags.Any())
+                yield return new PrivateMessage(incomingMessage.From, $&quot;{IrcValues.BOLD}Related tags{IrcValues.RESET}: { string.Join(&quot;, &quot;, artist.Tags.Select(t =&gt; t.Name))}&quot;);
+        }
+        else
+            yield return new PrivateMessage(incomingMessage.From, &quot;Sorry, couldn't find that artist.&quot;);
+    }
+}
+</code></pre>
+<p>We can see here that this rule will only respond to a <a href="https://gravyirc.halomademeapc.com/api/GravyIrc.Messages.PrivateMessage.html"><code>PrivateMessage</code></a> coming in.  The type parameter can be any custom type that you've raised or one of the built-in <a href="https://gravyirc.halomademeapc.com/api/GravyIrc.Messages.IServerMessage.html"><code>IServerMessage</code></a> implementations from <a href="https://gravyirc.halomademeapc.com">GravyIrc</a>. See a list of message types from GravyIrc <a href="https://gravyirc.halomademeapc.com/api/GravyIrc.Messages.html">here</a>.
+A regular expression is used to determine if the rule should take action before the main response method is triggered.  We can also see that we're able to use dependency injection like normal and that we can also emit multiple messages from out response method if we so choose.</p>
+<h2 id="registering-the-rule">Registering the Rule</h2>
+<p>Registering a rule to our pipeline is pretty simple.  Just add a line in your <code>ConfigureServices</code> method for the app.</p>
+<pre><code class="lang-csharp">services.AddIrcBot(Configuration.GetSection(&quot;Irc&quot;), pipeline =&gt; {
+    pipeline.AddSampleRules();
+    pipeline.RegisterAsyncRule&lt;ArtistRule, PrivateMessage&gt;();
+});
+</code></pre>
+<p>You would then be able to trigger the rule as such:</p>
+<pre><code>!artist Styx
+</code></pre>
+<blockquote>
+<p>Styx /stɪks/ is an American rock band from Chicago that formed in 1972 and became famous for its albums released in the late 1970s and early 1980s. They are best known for melding hard rock guitar balanced with acoustic guitar, synthesizers mixed with acoustic piano, upbeat tracks with power ballads, and incorporating elements of international musical theatre.[5] The band established itself with a progressive rock sound in the 1970s</p>
+</blockquote>
+<blockquote>
+<p><strong>Related tags</strong>: classic rock, rock, Progressive rock, 80s, hard rock</p>
+</blockquote>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/halomademeapc/GravyBot/blob/230d09a6de80f270a74c5f01a01c313da437a5a3/docfx_project/articles/custom-rules.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting Started </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting Started ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p>GravyBot is built to play nice with .NET Core's dependency injection container and make adding additional rules super-easy.<br>
+At the center of GravyBot are its <em><a href="/api/GravyBot.BotRulePipeline.html">rule pipeline</a></em> and <em><a href="/api/GravyBot.MessageQueueService.html">message queue</a></em>.  The message queue tracks incoming and outgoing messages and events.  The rule pipeline allows you to add actions that should happen when a certain type of message comes in using simple, strongly-typed interfaces.  It's easy to raise any kind of event and it's easy to listen for any kind of event.</p>
+<h2 id="installation-and-configuration">Installation and Configuration</h2>
+<p>To get started, install GravyBot to your project and get some configuration set up. The optional <em><a href="https://www.nuget.org/packages/GravyBot.SampleRules/">GravyBot.SampleRules</a></em> package provides exception logging and a basic &quot;Hello, world&quot; rule to help you get started.</p>
+<h3 id="nuget">NuGet</h3>
+<pre><code>Install-Package [GravyBot](https://www.nuget.org/packages/GravyBot/)
+Install-Package [GravyBot.SampleRules](https://www.nuget.org/packages/GravyBot.SampleRules/)
+</code></pre>
+<h3 id="in-appsettingsjson">In <em>appsettings.json</em></h3>
+<pre><code class="lang-json">&quot;Irc&quot;: {
+    &quot;Port&quot;: 6667,
+    &quot;Nick&quot;: &quot;MyIrcBot&quot;,
+    &quot;Identity&quot;: &quot;My first IRC bot using GravyBot&quot;,
+    &quot;Server&quot;: &quot;irc.myserver.net&quot;,
+    &quot;Channels&quot;: [ &quot;#mainchannel&quot;, &quot;#testchannel&quot; ],
+    &quot;NotifyChannel&quot;: &quot;#testchannel&quot;,
+    &quot;CommandPrefix&quot;: &quot;!&quot;,
+    &quot;LogChannel&quot;: &quot;#testchannel&quot;
+}
+</code></pre>
+<h3 id="in-startupconfigureservices">In <em>Startup.ConfigureServices</em></h3>
+<pre><code class="lang-csharp">services.AddIrcBot(Configuration.GetSection(&quot;Irc&quot;), pipeline =&gt; {
+    pipeline.AddSampleRules();
+});
+</code></pre>
+<p>The <code>Action&lt;BotRulePipeline&gt;</code> parameter to <a href="/api/GravyBot.Extensions.html#GravyBot_Extensions_AddIrcBot_IServiceCollection_Action_GravyBot_IrcBotConfiguration__Action_GravyBot_BotRulePipeline__"><code>AddIrcBot</code></a> is where you'll be adding your own custom rules.
+With all of that set up, run your app and if you installed and registered the <em><a href="https://www.nuget.org/packages/GravyBot.SampleRules/">GravyBot.SampleRules</a></em> package, you should be able to say hello to your bot to make sure everything connected correctly.</p>
+<pre><code>!hello
+</code></pre>
+<blockquote>
+<p>Hello, &lt;yourNick&gt;!</p>
+</blockquote>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/halomademeapc/GravyBot/blob/230d09a6de80f270a74c5f01a01c313da437a5a3/docfx_project/articles/getting-started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

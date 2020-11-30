@@ -1,0 +1,1897 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: GravyBot
+  name: GravyBot
+  href: api/GravyBot.html
+  commentId: N:GravyBot
+  fullName: GravyBot
+  nameWithType: GravyBot
+- uid: GravyBot.AsyncMessageRuleBase`1
+  name: AsyncMessageRuleBase<TMessage>
+  href: api/GravyBot.AsyncMessageRuleBase-1.html
+  commentId: T:GravyBot.AsyncMessageRuleBase`1
+  name.vb: AsyncMessageRuleBase(Of TMessage)
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage)
+  nameWithType: AsyncMessageRuleBase<TMessage>
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage)
+- uid: GravyBot.AsyncMessageRuleBase`1.EmptyResult
+  name: EmptyResult()
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_EmptyResult
+  commentId: M:GravyBot.AsyncMessageRuleBase`1.EmptyResult
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.EmptyResult()
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).EmptyResult()
+  nameWithType: AsyncMessageRuleBase<TMessage>.EmptyResult()
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).EmptyResult()
+- uid: GravyBot.AsyncMessageRuleBase`1.EmptyResult*
+  name: EmptyResult
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_EmptyResult_
+  commentId: Overload:GravyBot.AsyncMessageRuleBase`1.EmptyResult
+  isSpec: "True"
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.EmptyResult
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).EmptyResult
+  nameWithType: AsyncMessageRuleBase<TMessage>.EmptyResult
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).EmptyResult
+- uid: GravyBot.AsyncMessageRuleBase`1.Matches(`0)
+  name: Matches(TMessage)
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_Matches__0_
+  commentId: M:GravyBot.AsyncMessageRuleBase`1.Matches(`0)
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.Matches(TMessage)
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).Matches(TMessage)
+  nameWithType: AsyncMessageRuleBase<TMessage>.Matches(TMessage)
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).Matches(TMessage)
+- uid: GravyBot.AsyncMessageRuleBase`1.Matches(System.Object)
+  name: Matches(Object)
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_Matches_System_Object_
+  commentId: M:GravyBot.AsyncMessageRuleBase`1.Matches(System.Object)
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.Matches(System.Object)
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).Matches(System.Object)
+  nameWithType: AsyncMessageRuleBase<TMessage>.Matches(Object)
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).Matches(Object)
+- uid: GravyBot.AsyncMessageRuleBase`1.Matches*
+  name: Matches
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_Matches_
+  commentId: Overload:GravyBot.AsyncMessageRuleBase`1.Matches
+  isSpec: "True"
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.Matches
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).Matches
+  nameWithType: AsyncMessageRuleBase<TMessage>.Matches
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).Matches
+- uid: GravyBot.AsyncMessageRuleBase`1.RespondAsync(`0)
+  name: RespondAsync(TMessage)
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_RespondAsync__0_
+  commentId: M:GravyBot.AsyncMessageRuleBase`1.RespondAsync(`0)
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.RespondAsync(TMessage)
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).RespondAsync(TMessage)
+  nameWithType: AsyncMessageRuleBase<TMessage>.RespondAsync(TMessage)
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).RespondAsync(TMessage)
+- uid: GravyBot.AsyncMessageRuleBase`1.RespondAsync(System.Object)
+  name: RespondAsync(Object)
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_RespondAsync_System_Object_
+  commentId: M:GravyBot.AsyncMessageRuleBase`1.RespondAsync(System.Object)
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.RespondAsync(System.Object)
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).RespondAsync(System.Object)
+  nameWithType: AsyncMessageRuleBase<TMessage>.RespondAsync(Object)
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).RespondAsync(Object)
+- uid: GravyBot.AsyncMessageRuleBase`1.RespondAsync*
+  name: RespondAsync
+  href: api/GravyBot.AsyncMessageRuleBase-1.html#GravyBot_AsyncMessageRuleBase_1_RespondAsync_
+  commentId: Overload:GravyBot.AsyncMessageRuleBase`1.RespondAsync
+  isSpec: "True"
+  fullName: GravyBot.AsyncMessageRuleBase<TMessage>.RespondAsync
+  fullName.vb: GravyBot.AsyncMessageRuleBase(Of TMessage).RespondAsync
+  nameWithType: AsyncMessageRuleBase<TMessage>.RespondAsync
+  nameWithType.vb: AsyncMessageRuleBase(Of TMessage).RespondAsync
+- uid: GravyBot.BotRulePipeline
+  name: BotRulePipeline
+  href: api/GravyBot.BotRulePipeline.html
+  commentId: T:GravyBot.BotRulePipeline
+  fullName: GravyBot.BotRulePipeline
+  nameWithType: BotRulePipeline
+- uid: GravyBot.BotRulePipeline.#ctor(IServiceCollection)
+  name: BotRulePipeline(IServiceCollection)
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline__ctor_IServiceCollection_
+  commentId: M:GravyBot.BotRulePipeline.#ctor(IServiceCollection)
+  fullName: GravyBot.BotRulePipeline.BotRulePipeline(IServiceCollection)
+  nameWithType: BotRulePipeline.BotRulePipeline(IServiceCollection)
+- uid: GravyBot.BotRulePipeline.#ctor*
+  name: BotRulePipeline
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline__ctor_
+  commentId: Overload:GravyBot.BotRulePipeline.#ctor
+  isSpec: "True"
+  fullName: GravyBot.BotRulePipeline.BotRulePipeline
+  nameWithType: BotRulePipeline.BotRulePipeline
+- uid: GravyBot.BotRulePipeline.IsAutoReconnectEnabled
+  name: IsAutoReconnectEnabled
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_IsAutoReconnectEnabled
+  commentId: P:GravyBot.BotRulePipeline.IsAutoReconnectEnabled
+  fullName: GravyBot.BotRulePipeline.IsAutoReconnectEnabled
+  nameWithType: BotRulePipeline.IsAutoReconnectEnabled
+- uid: GravyBot.BotRulePipeline.IsAutoReconnectEnabled*
+  name: IsAutoReconnectEnabled
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_IsAutoReconnectEnabled_
+  commentId: Overload:GravyBot.BotRulePipeline.IsAutoReconnectEnabled
+  isSpec: "True"
+  fullName: GravyBot.BotRulePipeline.IsAutoReconnectEnabled
+  nameWithType: BotRulePipeline.IsAutoReconnectEnabled
+- uid: GravyBot.BotRulePipeline.RegisterAsyncRule*
+  name: RegisterAsyncRule
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_RegisterAsyncRule_
+  commentId: Overload:GravyBot.BotRulePipeline.RegisterAsyncRule
+  isSpec: "True"
+  fullName: GravyBot.BotRulePipeline.RegisterAsyncRule
+  nameWithType: BotRulePipeline.RegisterAsyncRule
+- uid: GravyBot.BotRulePipeline.RegisterAsyncRule``2
+  name: RegisterAsyncRule<TRule, TMessage>()
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_RegisterAsyncRule__2
+  commentId: M:GravyBot.BotRulePipeline.RegisterAsyncRule``2
+  name.vb: RegisterAsyncRule(Of TRule, TMessage)()
+  fullName: GravyBot.BotRulePipeline.RegisterAsyncRule<TRule, TMessage>()
+  fullName.vb: GravyBot.BotRulePipeline.RegisterAsyncRule(Of TRule, TMessage)()
+  nameWithType: BotRulePipeline.RegisterAsyncRule<TRule, TMessage>()
+  nameWithType.vb: BotRulePipeline.RegisterAsyncRule(Of TRule, TMessage)()
+- uid: GravyBot.BotRulePipeline.RegisterRule*
+  name: RegisterRule
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_RegisterRule_
+  commentId: Overload:GravyBot.BotRulePipeline.RegisterRule
+  isSpec: "True"
+  fullName: GravyBot.BotRulePipeline.RegisterRule
+  nameWithType: BotRulePipeline.RegisterRule
+- uid: GravyBot.BotRulePipeline.RegisterRule``2
+  name: RegisterRule<TRule, TMessage>()
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_RegisterRule__2
+  commentId: M:GravyBot.BotRulePipeline.RegisterRule``2
+  name.vb: RegisterRule(Of TRule, TMessage)()
+  fullName: GravyBot.BotRulePipeline.RegisterRule<TRule, TMessage>()
+  fullName.vb: GravyBot.BotRulePipeline.RegisterRule(Of TRule, TMessage)()
+  nameWithType: BotRulePipeline.RegisterRule<TRule, TMessage>()
+  nameWithType.vb: BotRulePipeline.RegisterRule(Of TRule, TMessage)()
+- uid: GravyBot.BotRulePipeline.SubscribedTypes
+  name: SubscribedTypes
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_SubscribedTypes
+  commentId: P:GravyBot.BotRulePipeline.SubscribedTypes
+  fullName: GravyBot.BotRulePipeline.SubscribedTypes
+  nameWithType: BotRulePipeline.SubscribedTypes
+- uid: GravyBot.BotRulePipeline.SubscribedTypes*
+  name: SubscribedTypes
+  href: api/GravyBot.BotRulePipeline.html#GravyBot_BotRulePipeline_SubscribedTypes_
+  commentId: Overload:GravyBot.BotRulePipeline.SubscribedTypes
+  isSpec: "True"
+  fullName: GravyBot.BotRulePipeline.SubscribedTypes
+  nameWithType: BotRulePipeline.SubscribedTypes
+- uid: GravyBot.Commands
+  name: GravyBot.Commands
+  href: api/GravyBot.Commands.html
+  commentId: N:GravyBot.Commands
+  fullName: GravyBot.Commands
+  nameWithType: GravyBot.Commands
+- uid: GravyBot.Commands.ChannelOnlyAttribute
+  name: ChannelOnlyAttribute
+  href: api/GravyBot.Commands.ChannelOnlyAttribute.html
+  commentId: T:GravyBot.Commands.ChannelOnlyAttribute
+  fullName: GravyBot.Commands.ChannelOnlyAttribute
+  nameWithType: ChannelOnlyAttribute
+- uid: GravyBot.Commands.ChannelPolicy
+  name: ChannelPolicy
+  href: api/GravyBot.Commands.ChannelPolicy.html
+  commentId: T:GravyBot.Commands.ChannelPolicy
+  fullName: GravyBot.Commands.ChannelPolicy
+  nameWithType: ChannelPolicy
+- uid: GravyBot.Commands.ChannelPolicy.Blocks(PrivateMessage)
+  name: Blocks(PrivateMessage)
+  href: api/GravyBot.Commands.ChannelPolicy.html#GravyBot_Commands_ChannelPolicy_Blocks_PrivateMessage_
+  commentId: M:GravyBot.Commands.ChannelPolicy.Blocks(PrivateMessage)
+  fullName: GravyBot.Commands.ChannelPolicy.Blocks(PrivateMessage)
+  nameWithType: ChannelPolicy.Blocks(PrivateMessage)
+- uid: GravyBot.Commands.ChannelPolicy.Blocks*
+  name: Blocks
+  href: api/GravyBot.Commands.ChannelPolicy.html#GravyBot_Commands_ChannelPolicy_Blocks_
+  commentId: Overload:GravyBot.Commands.ChannelPolicy.Blocks
+  isSpec: "True"
+  fullName: GravyBot.Commands.ChannelPolicy.Blocks
+  nameWithType: ChannelPolicy.Blocks
+- uid: GravyBot.Commands.ChannelPolicy.Channels
+  name: Channels
+  href: api/GravyBot.Commands.ChannelPolicy.html#GravyBot_Commands_ChannelPolicy_Channels
+  commentId: P:GravyBot.Commands.ChannelPolicy.Channels
+  fullName: GravyBot.Commands.ChannelPolicy.Channels
+  nameWithType: ChannelPolicy.Channels
+- uid: GravyBot.Commands.ChannelPolicy.Channels*
+  name: Channels
+  href: api/GravyBot.Commands.ChannelPolicy.html#GravyBot_Commands_ChannelPolicy_Channels_
+  commentId: Overload:GravyBot.Commands.ChannelPolicy.Channels
+  isSpec: "True"
+  fullName: GravyBot.Commands.ChannelPolicy.Channels
+  nameWithType: ChannelPolicy.Channels
+- uid: GravyBot.Commands.ChannelPolicy.Mode
+  name: Mode
+  href: api/GravyBot.Commands.ChannelPolicy.html#GravyBot_Commands_ChannelPolicy_Mode
+  commentId: P:GravyBot.Commands.ChannelPolicy.Mode
+  fullName: GravyBot.Commands.ChannelPolicy.Mode
+  nameWithType: ChannelPolicy.Mode
+- uid: GravyBot.Commands.ChannelPolicy.Mode*
+  name: Mode
+  href: api/GravyBot.Commands.ChannelPolicy.html#GravyBot_Commands_ChannelPolicy_Mode_
+  commentId: Overload:GravyBot.Commands.ChannelPolicy.Mode
+  isSpec: "True"
+  fullName: GravyBot.Commands.ChannelPolicy.Mode
+  nameWithType: ChannelPolicy.Mode
+- uid: GravyBot.Commands.ChannelPolicy.PolicyMode
+  name: ChannelPolicy.PolicyMode
+  href: api/GravyBot.Commands.ChannelPolicy.PolicyMode.html
+  commentId: T:GravyBot.Commands.ChannelPolicy.PolicyMode
+  fullName: GravyBot.Commands.ChannelPolicy.PolicyMode
+  nameWithType: ChannelPolicy.PolicyMode
+- uid: GravyBot.Commands.ChannelPolicy.PolicyMode.Blacklist
+  name: Blacklist
+  href: api/GravyBot.Commands.ChannelPolicy.PolicyMode.html#GravyBot_Commands_ChannelPolicy_PolicyMode_Blacklist
+  commentId: F:GravyBot.Commands.ChannelPolicy.PolicyMode.Blacklist
+  fullName: GravyBot.Commands.ChannelPolicy.PolicyMode.Blacklist
+  nameWithType: ChannelPolicy.PolicyMode.Blacklist
+- uid: GravyBot.Commands.ChannelPolicy.PolicyMode.Whitelist
+  name: Whitelist
+  href: api/GravyBot.Commands.ChannelPolicy.PolicyMode.html#GravyBot_Commands_ChannelPolicy_PolicyMode_Whitelist
+  commentId: F:GravyBot.Commands.ChannelPolicy.PolicyMode.Whitelist
+  fullName: GravyBot.Commands.ChannelPolicy.PolicyMode.Whitelist
+  nameWithType: ChannelPolicy.PolicyMode.Whitelist
+- uid: GravyBot.Commands.ChannelPolicyAttribute
+  name: ChannelPolicyAttribute
+  href: api/GravyBot.Commands.ChannelPolicyAttribute.html
+  commentId: T:GravyBot.Commands.ChannelPolicyAttribute
+  fullName: GravyBot.Commands.ChannelPolicyAttribute
+  nameWithType: ChannelPolicyAttribute
+- uid: GravyBot.Commands.ChannelPolicyAttribute.#ctor(System.String)
+  name: ChannelPolicyAttribute(String)
+  href: api/GravyBot.Commands.ChannelPolicyAttribute.html#GravyBot_Commands_ChannelPolicyAttribute__ctor_System_String_
+  commentId: M:GravyBot.Commands.ChannelPolicyAttribute.#ctor(System.String)
+  fullName: GravyBot.Commands.ChannelPolicyAttribute.ChannelPolicyAttribute(System.String)
+  nameWithType: ChannelPolicyAttribute.ChannelPolicyAttribute(String)
+- uid: GravyBot.Commands.ChannelPolicyAttribute.#ctor*
+  name: ChannelPolicyAttribute
+  href: api/GravyBot.Commands.ChannelPolicyAttribute.html#GravyBot_Commands_ChannelPolicyAttribute__ctor_
+  commentId: Overload:GravyBot.Commands.ChannelPolicyAttribute.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.ChannelPolicyAttribute.ChannelPolicyAttribute
+  nameWithType: ChannelPolicyAttribute.ChannelPolicyAttribute
+- uid: GravyBot.Commands.ChannelPolicyAttribute.PolicyName
+  name: PolicyName
+  href: api/GravyBot.Commands.ChannelPolicyAttribute.html#GravyBot_Commands_ChannelPolicyAttribute_PolicyName
+  commentId: P:GravyBot.Commands.ChannelPolicyAttribute.PolicyName
+  fullName: GravyBot.Commands.ChannelPolicyAttribute.PolicyName
+  nameWithType: ChannelPolicyAttribute.PolicyName
+- uid: GravyBot.Commands.ChannelPolicyAttribute.PolicyName*
+  name: PolicyName
+  href: api/GravyBot.Commands.ChannelPolicyAttribute.html#GravyBot_Commands_ChannelPolicyAttribute_PolicyName_
+  commentId: Overload:GravyBot.Commands.ChannelPolicyAttribute.PolicyName
+  isSpec: "True"
+  fullName: GravyBot.Commands.ChannelPolicyAttribute.PolicyName
+  nameWithType: ChannelPolicyAttribute.PolicyName
+- uid: GravyBot.Commands.CommandAliasRule`1
+  name: CommandAliasRule<TProcessor>
+  href: api/GravyBot.Commands.CommandAliasRule-1.html
+  commentId: T:GravyBot.Commands.CommandAliasRule`1
+  name.vb: CommandAliasRule(Of TProcessor)
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor)
+  nameWithType: CommandAliasRule<TProcessor>
+  nameWithType.vb: CommandAliasRule(Of TProcessor)
+- uid: GravyBot.Commands.CommandAliasRule`1.#ctor(IOptions{GravyBot.IrcBotConfiguration},IServiceProvider)
+  name: CommandAliasRule(IOptions<IrcBotConfiguration>, IServiceProvider)
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1__ctor_IOptions_GravyBot_IrcBotConfiguration__IServiceProvider_
+  commentId: M:GravyBot.Commands.CommandAliasRule`1.#ctor(IOptions{GravyBot.IrcBotConfiguration},IServiceProvider)
+  name.vb: CommandAliasRule(IOptions(Of IrcBotConfiguration), IServiceProvider)
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.CommandAliasRule(IOptions<GravyBot.IrcBotConfiguration>, IServiceProvider)
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).CommandAliasRule(IOptions(Of GravyBot.IrcBotConfiguration), IServiceProvider)
+  nameWithType: CommandAliasRule<TProcessor>.CommandAliasRule(IOptions<IrcBotConfiguration>, IServiceProvider)
+  nameWithType.vb: CommandAliasRule(Of TProcessor).CommandAliasRule(IOptions(Of IrcBotConfiguration), IServiceProvider)
+- uid: GravyBot.Commands.CommandAliasRule`1.#ctor*
+  name: CommandAliasRule
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1__ctor_
+  commentId: Overload:GravyBot.Commands.CommandAliasRule`1.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.CommandAliasRule
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).CommandAliasRule
+  nameWithType: CommandAliasRule<TProcessor>.CommandAliasRule
+  nameWithType.vb: CommandAliasRule(Of TProcessor).CommandAliasRule
+- uid: GravyBot.Commands.CommandAliasRule`1.Configuration
+  name: Configuration
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_Configuration
+  commentId: F:GravyBot.Commands.CommandAliasRule`1.Configuration
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.Configuration
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).Configuration
+  nameWithType: CommandAliasRule<TProcessor>.Configuration
+  nameWithType.vb: CommandAliasRule(Of TProcessor).Configuration
+- uid: GravyBot.Commands.CommandAliasRule`1.Matches(PrivateMessage)
+  name: Matches(PrivateMessage)
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_Matches_PrivateMessage_
+  commentId: M:GravyBot.Commands.CommandAliasRule`1.Matches(PrivateMessage)
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.Matches(PrivateMessage)
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).Matches(PrivateMessage)
+  nameWithType: CommandAliasRule<TProcessor>.Matches(PrivateMessage)
+  nameWithType.vb: CommandAliasRule(Of TProcessor).Matches(PrivateMessage)
+- uid: GravyBot.Commands.CommandAliasRule`1.Matches*
+  name: Matches
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_Matches_
+  commentId: Overload:GravyBot.Commands.CommandAliasRule`1.Matches
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.Matches
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).Matches
+  nameWithType: CommandAliasRule<TProcessor>.Matches
+  nameWithType.vb: CommandAliasRule(Of TProcessor).Matches
+- uid: GravyBot.Commands.CommandAliasRule`1.OnMatch(Match,`0)
+  name: OnMatch(Match, TProcessor)
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_OnMatch_Match__0_
+  commentId: M:GravyBot.Commands.CommandAliasRule`1.OnMatch(Match,`0)
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.OnMatch(Match, TProcessor)
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).OnMatch(Match, TProcessor)
+  nameWithType: CommandAliasRule<TProcessor>.OnMatch(Match, TProcessor)
+  nameWithType.vb: CommandAliasRule(Of TProcessor).OnMatch(Match, TProcessor)
+- uid: GravyBot.Commands.CommandAliasRule`1.OnMatch*
+  name: OnMatch
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_OnMatch_
+  commentId: Overload:GravyBot.Commands.CommandAliasRule`1.OnMatch
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.OnMatch
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).OnMatch
+  nameWithType: CommandAliasRule<TProcessor>.OnMatch
+  nameWithType.vb: CommandAliasRule(Of TProcessor).OnMatch
+- uid: GravyBot.Commands.CommandAliasRule`1.Pattern
+  name: Pattern
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_Pattern
+  commentId: F:GravyBot.Commands.CommandAliasRule`1.Pattern
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.Pattern
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).Pattern
+  nameWithType: CommandAliasRule<TProcessor>.Pattern
+  nameWithType.vb: CommandAliasRule(Of TProcessor).Pattern
+- uid: GravyBot.Commands.CommandAliasRule`1.RespondAsync(PrivateMessage)
+  name: RespondAsync(PrivateMessage)
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_RespondAsync_PrivateMessage_
+  commentId: M:GravyBot.Commands.CommandAliasRule`1.RespondAsync(PrivateMessage)
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.RespondAsync(PrivateMessage)
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).RespondAsync(PrivateMessage)
+  nameWithType: CommandAliasRule<TProcessor>.RespondAsync(PrivateMessage)
+  nameWithType.vb: CommandAliasRule(Of TProcessor).RespondAsync(PrivateMessage)
+- uid: GravyBot.Commands.CommandAliasRule`1.RespondAsync*
+  name: RespondAsync
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_RespondAsync_
+  commentId: Overload:GravyBot.Commands.CommandAliasRule`1.RespondAsync
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.RespondAsync
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).RespondAsync
+  nameWithType: CommandAliasRule<TProcessor>.RespondAsync
+  nameWithType.vb: CommandAliasRule(Of TProcessor).RespondAsync
+- uid: GravyBot.Commands.CommandAliasRule`1.SimulatedCommandName
+  name: SimulatedCommandName
+  href: api/GravyBot.Commands.CommandAliasRule-1.html#GravyBot_Commands_CommandAliasRule_1_SimulatedCommandName
+  commentId: F:GravyBot.Commands.CommandAliasRule`1.SimulatedCommandName
+  fullName: GravyBot.Commands.CommandAliasRule<TProcessor>.SimulatedCommandName
+  fullName.vb: GravyBot.Commands.CommandAliasRule(Of TProcessor).SimulatedCommandName
+  nameWithType: CommandAliasRule<TProcessor>.SimulatedCommandName
+  nameWithType.vb: CommandAliasRule(Of TProcessor).SimulatedCommandName
+- uid: GravyBot.Commands.CommandAttribute
+  name: CommandAttribute
+  href: api/GravyBot.Commands.CommandAttribute.html
+  commentId: T:GravyBot.Commands.CommandAttribute
+  fullName: GravyBot.Commands.CommandAttribute
+  nameWithType: CommandAttribute
+- uid: GravyBot.Commands.CommandAttribute.#ctor(System.String)
+  name: CommandAttribute(String)
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute__ctor_System_String_
+  commentId: M:GravyBot.Commands.CommandAttribute.#ctor(System.String)
+  fullName: GravyBot.Commands.CommandAttribute.CommandAttribute(System.String)
+  nameWithType: CommandAttribute.CommandAttribute(String)
+- uid: GravyBot.Commands.CommandAttribute.#ctor*
+  name: CommandAttribute
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute__ctor_
+  commentId: Overload:GravyBot.Commands.CommandAttribute.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAttribute.CommandAttribute
+  nameWithType: CommandAttribute.CommandAttribute
+- uid: GravyBot.Commands.CommandAttribute.CommandFormat
+  name: CommandFormat
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_CommandFormat
+  commentId: P:GravyBot.Commands.CommandAttribute.CommandFormat
+  fullName: GravyBot.Commands.CommandAttribute.CommandFormat
+  nameWithType: CommandAttribute.CommandFormat
+- uid: GravyBot.Commands.CommandAttribute.CommandFormat*
+  name: CommandFormat
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_CommandFormat_
+  commentId: Overload:GravyBot.Commands.CommandAttribute.CommandFormat
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAttribute.CommandFormat
+  nameWithType: CommandAttribute.CommandFormat
+- uid: GravyBot.Commands.CommandAttribute.CommandName
+  name: CommandName
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_CommandName
+  commentId: P:GravyBot.Commands.CommandAttribute.CommandName
+  fullName: GravyBot.Commands.CommandAttribute.CommandName
+  nameWithType: CommandAttribute.CommandName
+- uid: GravyBot.Commands.CommandAttribute.CommandName*
+  name: CommandName
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_CommandName_
+  commentId: Overload:GravyBot.Commands.CommandAttribute.CommandName
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAttribute.CommandName
+  nameWithType: CommandAttribute.CommandName
+- uid: GravyBot.Commands.CommandAttribute.Description
+  name: Description
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_Description
+  commentId: P:GravyBot.Commands.CommandAttribute.Description
+  fullName: GravyBot.Commands.CommandAttribute.Description
+  nameWithType: CommandAttribute.Description
+- uid: GravyBot.Commands.CommandAttribute.Description*
+  name: Description
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_Description_
+  commentId: Overload:GravyBot.Commands.CommandAttribute.Description
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAttribute.Description
+  nameWithType: CommandAttribute.Description
+- uid: GravyBot.Commands.CommandAttribute.MatchingPattern
+  name: MatchingPattern
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_MatchingPattern
+  commentId: P:GravyBot.Commands.CommandAttribute.MatchingPattern
+  fullName: GravyBot.Commands.CommandAttribute.MatchingPattern
+  nameWithType: CommandAttribute.MatchingPattern
+- uid: GravyBot.Commands.CommandAttribute.MatchingPattern*
+  name: MatchingPattern
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_MatchingPattern_
+  commentId: Overload:GravyBot.Commands.CommandAttribute.MatchingPattern
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAttribute.MatchingPattern
+  nameWithType: CommandAttribute.MatchingPattern
+- uid: GravyBot.Commands.CommandAttribute.ParameterNames
+  name: ParameterNames
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_ParameterNames
+  commentId: P:GravyBot.Commands.CommandAttribute.ParameterNames
+  fullName: GravyBot.Commands.CommandAttribute.ParameterNames
+  nameWithType: CommandAttribute.ParameterNames
+- uid: GravyBot.Commands.CommandAttribute.ParameterNames*
+  name: ParameterNames
+  href: api/GravyBot.Commands.CommandAttribute.html#GravyBot_Commands_CommandAttribute_ParameterNames_
+  commentId: Overload:GravyBot.Commands.CommandAttribute.ParameterNames
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandAttribute.ParameterNames
+  nameWithType: CommandAttribute.ParameterNames
+- uid: GravyBot.Commands.CommandBinding
+  name: CommandBinding
+  href: api/GravyBot.Commands.CommandBinding.html
+  commentId: T:GravyBot.Commands.CommandBinding
+  fullName: GravyBot.Commands.CommandBinding
+  nameWithType: CommandBinding
+- uid: GravyBot.Commands.CommandBinding.#ctor(GravyBot.Commands.CommandAttribute,MethodInfo)
+  name: CommandBinding(CommandAttribute, MethodInfo)
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding__ctor_GravyBot_Commands_CommandAttribute_MethodInfo_
+  commentId: M:GravyBot.Commands.CommandBinding.#ctor(GravyBot.Commands.CommandAttribute,MethodInfo)
+  fullName: GravyBot.Commands.CommandBinding.CommandBinding(GravyBot.Commands.CommandAttribute, MethodInfo)
+  nameWithType: CommandBinding.CommandBinding(CommandAttribute, MethodInfo)
+- uid: GravyBot.Commands.CommandBinding.#ctor*
+  name: CommandBinding
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding__ctor_
+  commentId: Overload:GravyBot.Commands.CommandBinding.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandBinding.CommandBinding
+  nameWithType: CommandBinding.CommandBinding
+- uid: GravyBot.Commands.CommandBinding.Command
+  name: Command
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_Command
+  commentId: F:GravyBot.Commands.CommandBinding.Command
+  fullName: GravyBot.Commands.CommandBinding.Command
+  nameWithType: CommandBinding.Command
+- uid: GravyBot.Commands.CommandBinding.HasPolicy
+  name: HasPolicy
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_HasPolicy
+  commentId: P:GravyBot.Commands.CommandBinding.HasPolicy
+  fullName: GravyBot.Commands.CommandBinding.HasPolicy
+  nameWithType: CommandBinding.HasPolicy
+- uid: GravyBot.Commands.CommandBinding.HasPolicy*
+  name: HasPolicy
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_HasPolicy_
+  commentId: Overload:GravyBot.Commands.CommandBinding.HasPolicy
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandBinding.HasPolicy
+  nameWithType: CommandBinding.HasPolicy
+- uid: GravyBot.Commands.CommandBinding.IsAsync
+  name: IsAsync
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_IsAsync
+  commentId: F:GravyBot.Commands.CommandBinding.IsAsync
+  fullName: GravyBot.Commands.CommandBinding.IsAsync
+  nameWithType: CommandBinding.IsAsync
+- uid: GravyBot.Commands.CommandBinding.IsChannelOnly
+  name: IsChannelOnly
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_IsChannelOnly
+  commentId: F:GravyBot.Commands.CommandBinding.IsChannelOnly
+  fullName: GravyBot.Commands.CommandBinding.IsChannelOnly
+  nameWithType: CommandBinding.IsChannelOnly
+- uid: GravyBot.Commands.CommandBinding.IsDirectOnly
+  name: IsDirectOnly
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_IsDirectOnly
+  commentId: F:GravyBot.Commands.CommandBinding.IsDirectOnly
+  fullName: GravyBot.Commands.CommandBinding.IsDirectOnly
+  nameWithType: CommandBinding.IsDirectOnly
+- uid: GravyBot.Commands.CommandBinding.IsRateLimited
+  name: IsRateLimited
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_IsRateLimited
+  commentId: P:GravyBot.Commands.CommandBinding.IsRateLimited
+  fullName: GravyBot.Commands.CommandBinding.IsRateLimited
+  nameWithType: CommandBinding.IsRateLimited
+- uid: GravyBot.Commands.CommandBinding.IsRateLimited*
+  name: IsRateLimited
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_IsRateLimited_
+  commentId: Overload:GravyBot.Commands.CommandBinding.IsRateLimited
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandBinding.IsRateLimited
+  nameWithType: CommandBinding.IsRateLimited
+- uid: GravyBot.Commands.CommandBinding.Method
+  name: Method
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_Method
+  commentId: F:GravyBot.Commands.CommandBinding.Method
+  fullName: GravyBot.Commands.CommandBinding.Method
+  nameWithType: CommandBinding.Method
+- uid: GravyBot.Commands.CommandBinding.PolicyName
+  name: PolicyName
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_PolicyName
+  commentId: F:GravyBot.Commands.CommandBinding.PolicyName
+  fullName: GravyBot.Commands.CommandBinding.PolicyName
+  nameWithType: CommandBinding.PolicyName
+- uid: GravyBot.Commands.CommandBinding.ProducesMultipleResponses
+  name: ProducesMultipleResponses
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_ProducesMultipleResponses
+  commentId: F:GravyBot.Commands.CommandBinding.ProducesMultipleResponses
+  fullName: GravyBot.Commands.CommandBinding.ProducesMultipleResponses
+  nameWithType: CommandBinding.ProducesMultipleResponses
+- uid: GravyBot.Commands.CommandBinding.RateLimitPeriod
+  name: RateLimitPeriod
+  href: api/GravyBot.Commands.CommandBinding.html#GravyBot_Commands_CommandBinding_RateLimitPeriod
+  commentId: F:GravyBot.Commands.CommandBinding.RateLimitPeriod
+  fullName: GravyBot.Commands.CommandBinding.RateLimitPeriod
+  nameWithType: CommandBinding.RateLimitPeriod
+- uid: GravyBot.Commands.CommandOrchestratorBuilder
+  name: CommandOrchestratorBuilder
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html
+  commentId: T:GravyBot.Commands.CommandOrchestratorBuilder
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder
+  nameWithType: CommandOrchestratorBuilder
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.#ctor(IServiceCollection)
+  name: CommandOrchestratorBuilder(IServiceCollection)
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder__ctor_IServiceCollection_
+  commentId: M:GravyBot.Commands.CommandOrchestratorBuilder.#ctor(IServiceCollection)
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.CommandOrchestratorBuilder(IServiceCollection)
+  nameWithType: CommandOrchestratorBuilder.CommandOrchestratorBuilder(IServiceCollection)
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.#ctor*
+  name: CommandOrchestratorBuilder
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder__ctor_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.CommandOrchestratorBuilder
+  nameWithType: CommandOrchestratorBuilder.CommandOrchestratorBuilder
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String,GravyBot.Commands.ChannelPolicy)
+  name: AddChannelPolicy(String, ChannelPolicy)
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_AddChannelPolicy_System_String_GravyBot_Commands_ChannelPolicy_
+  commentId: M:GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String,GravyBot.Commands.ChannelPolicy)
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String, GravyBot.Commands.ChannelPolicy)
+  nameWithType: CommandOrchestratorBuilder.AddChannelPolicy(String, ChannelPolicy)
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String,IEnumerable{System.String},GravyBot.Commands.ChannelPolicy.PolicyMode)
+  name: AddChannelPolicy(String, IEnumerable<String>, ChannelPolicy.PolicyMode)
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_AddChannelPolicy_System_String_IEnumerable_System_String__GravyBot_Commands_ChannelPolicy_PolicyMode_
+  commentId: M:GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String,IEnumerable{System.String},GravyBot.Commands.ChannelPolicy.PolicyMode)
+  name.vb: AddChannelPolicy(String, IEnumerable(Of String), ChannelPolicy.PolicyMode)
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String, IEnumerable<System.String>, GravyBot.Commands.ChannelPolicy.PolicyMode)
+  fullName.vb: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy(System.String, IEnumerable(Of System.String), GravyBot.Commands.ChannelPolicy.PolicyMode)
+  nameWithType: CommandOrchestratorBuilder.AddChannelPolicy(String, IEnumerable<String>, ChannelPolicy.PolicyMode)
+  nameWithType.vb: CommandOrchestratorBuilder.AddChannelPolicy(String, IEnumerable(Of String), ChannelPolicy.PolicyMode)
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy*
+  name: AddChannelPolicy
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_AddChannelPolicy_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.AddChannelPolicy
+  nameWithType: CommandOrchestratorBuilder.AddChannelPolicy
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.Bindings
+  name: Bindings
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_Bindings
+  commentId: P:GravyBot.Commands.CommandOrchestratorBuilder.Bindings
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.Bindings
+  nameWithType: CommandOrchestratorBuilder.Bindings
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.Bindings*
+  name: Bindings
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_Bindings_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.Bindings
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.Bindings
+  nameWithType: CommandOrchestratorBuilder.Bindings
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.Policies
+  name: Policies
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_Policies
+  commentId: P:GravyBot.Commands.CommandOrchestratorBuilder.Policies
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.Policies
+  nameWithType: CommandOrchestratorBuilder.Policies
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.Policies*
+  name: Policies
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_Policies_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.Policies
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.Policies
+  nameWithType: CommandOrchestratorBuilder.Policies
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.RegisterCommand(GravyBot.Commands.CommandAttribute,MethodInfo)
+  name: RegisterCommand(CommandAttribute, MethodInfo)
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_RegisterCommand_GravyBot_Commands_CommandAttribute_MethodInfo_
+  commentId: M:GravyBot.Commands.CommandOrchestratorBuilder.RegisterCommand(GravyBot.Commands.CommandAttribute,MethodInfo)
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.RegisterCommand(GravyBot.Commands.CommandAttribute, MethodInfo)
+  nameWithType: CommandOrchestratorBuilder.RegisterCommand(CommandAttribute, MethodInfo)
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.RegisterCommand*
+  name: RegisterCommand
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_RegisterCommand_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.RegisterCommand
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.RegisterCommand
+  nameWithType: CommandOrchestratorBuilder.RegisterCommand
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor*
+  name: RegisterProcessor
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_RegisterProcessor_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor
+  nameWithType: CommandOrchestratorBuilder.RegisterProcessor
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor``1
+  name: RegisterProcessor<TProcessor>()
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_RegisterProcessor__1
+  commentId: M:GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor``1
+  name.vb: RegisterProcessor(Of TProcessor)()
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor<TProcessor>()
+  fullName.vb: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessor(Of TProcessor)()
+  nameWithType: CommandOrchestratorBuilder.RegisterProcessor<TProcessor>()
+  nameWithType.vb: CommandOrchestratorBuilder.RegisterProcessor(Of TProcessor)()
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessors(Assembly)
+  name: RegisterProcessors(Assembly)
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_RegisterProcessors_Assembly_
+  commentId: M:GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessors(Assembly)
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessors(Assembly)
+  nameWithType: CommandOrchestratorBuilder.RegisterProcessors(Assembly)
+- uid: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessors*
+  name: RegisterProcessors
+  href: api/GravyBot.Commands.CommandOrchestratorBuilder.html#GravyBot_Commands_CommandOrchestratorBuilder_RegisterProcessors_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessors
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorBuilder.RegisterProcessors
+  nameWithType: CommandOrchestratorBuilder.RegisterProcessors
+- uid: GravyBot.Commands.CommandOrchestratorRule
+  name: CommandOrchestratorRule
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html
+  commentId: T:GravyBot.Commands.CommandOrchestratorRule
+  fullName: GravyBot.Commands.CommandOrchestratorRule
+  nameWithType: CommandOrchestratorRule
+- uid: GravyBot.Commands.CommandOrchestratorRule.#ctor(IOptions{GravyBot.IrcBotConfiguration},GravyBot.Commands.ICommandOrchestratorBuilder,GravyBot.Commands.ICommandProcessorProvider)
+  name: CommandOrchestratorRule(IOptions<IrcBotConfiguration>, ICommandOrchestratorBuilder, ICommandProcessorProvider)
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html#GravyBot_Commands_CommandOrchestratorRule__ctor_IOptions_GravyBot_IrcBotConfiguration__GravyBot_Commands_ICommandOrchestratorBuilder_GravyBot_Commands_ICommandProcessorProvider_
+  commentId: M:GravyBot.Commands.CommandOrchestratorRule.#ctor(IOptions{GravyBot.IrcBotConfiguration},GravyBot.Commands.ICommandOrchestratorBuilder,GravyBot.Commands.ICommandProcessorProvider)
+  name.vb: CommandOrchestratorRule(IOptions(Of IrcBotConfiguration), ICommandOrchestratorBuilder, ICommandProcessorProvider)
+  fullName: GravyBot.Commands.CommandOrchestratorRule.CommandOrchestratorRule(IOptions<GravyBot.IrcBotConfiguration>, GravyBot.Commands.ICommandOrchestratorBuilder, GravyBot.Commands.ICommandProcessorProvider)
+  fullName.vb: GravyBot.Commands.CommandOrchestratorRule.CommandOrchestratorRule(IOptions(Of GravyBot.IrcBotConfiguration), GravyBot.Commands.ICommandOrchestratorBuilder, GravyBot.Commands.ICommandProcessorProvider)
+  nameWithType: CommandOrchestratorRule.CommandOrchestratorRule(IOptions<IrcBotConfiguration>, ICommandOrchestratorBuilder, ICommandProcessorProvider)
+  nameWithType.vb: CommandOrchestratorRule.CommandOrchestratorRule(IOptions(Of IrcBotConfiguration), ICommandOrchestratorBuilder, ICommandProcessorProvider)
+- uid: GravyBot.Commands.CommandOrchestratorRule.#ctor*
+  name: CommandOrchestratorRule
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html#GravyBot_Commands_CommandOrchestratorRule__ctor_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorRule.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorRule.CommandOrchestratorRule
+  nameWithType: CommandOrchestratorRule.CommandOrchestratorRule
+- uid: GravyBot.Commands.CommandOrchestratorRule.Matches(PrivateMessage)
+  name: Matches(PrivateMessage)
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html#GravyBot_Commands_CommandOrchestratorRule_Matches_PrivateMessage_
+  commentId: M:GravyBot.Commands.CommandOrchestratorRule.Matches(PrivateMessage)
+  fullName: GravyBot.Commands.CommandOrchestratorRule.Matches(PrivateMessage)
+  nameWithType: CommandOrchestratorRule.Matches(PrivateMessage)
+- uid: GravyBot.Commands.CommandOrchestratorRule.Matches*
+  name: Matches
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html#GravyBot_Commands_CommandOrchestratorRule_Matches_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorRule.Matches
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorRule.Matches
+  nameWithType: CommandOrchestratorRule.Matches
+- uid: GravyBot.Commands.CommandOrchestratorRule.RespondAsync(PrivateMessage)
+  name: RespondAsync(PrivateMessage)
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html#GravyBot_Commands_CommandOrchestratorRule_RespondAsync_PrivateMessage_
+  commentId: M:GravyBot.Commands.CommandOrchestratorRule.RespondAsync(PrivateMessage)
+  fullName: GravyBot.Commands.CommandOrchestratorRule.RespondAsync(PrivateMessage)
+  nameWithType: CommandOrchestratorRule.RespondAsync(PrivateMessage)
+- uid: GravyBot.Commands.CommandOrchestratorRule.RespondAsync*
+  name: RespondAsync
+  href: api/GravyBot.Commands.CommandOrchestratorRule.html#GravyBot_Commands_CommandOrchestratorRule_RespondAsync_
+  commentId: Overload:GravyBot.Commands.CommandOrchestratorRule.RespondAsync
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandOrchestratorRule.RespondAsync
+  nameWithType: CommandOrchestratorRule.RespondAsync
+- uid: GravyBot.Commands.CommandProcessor
+  name: CommandProcessor
+  href: api/GravyBot.Commands.CommandProcessor.html
+  commentId: T:GravyBot.Commands.CommandProcessor
+  fullName: GravyBot.Commands.CommandProcessor
+  nameWithType: CommandProcessor
+- uid: GravyBot.Commands.CommandProcessor.BypassRateLimit
+  name: BypassRateLimit
+  href: api/GravyBot.Commands.CommandProcessor.html#GravyBot_Commands_CommandProcessor_BypassRateLimit
+  commentId: P:GravyBot.Commands.CommandProcessor.BypassRateLimit
+  fullName: GravyBot.Commands.CommandProcessor.BypassRateLimit
+  nameWithType: CommandProcessor.BypassRateLimit
+- uid: GravyBot.Commands.CommandProcessor.BypassRateLimit*
+  name: BypassRateLimit
+  href: api/GravyBot.Commands.CommandProcessor.html#GravyBot_Commands_CommandProcessor_BypassRateLimit_
+  commentId: Overload:GravyBot.Commands.CommandProcessor.BypassRateLimit
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandProcessor.BypassRateLimit
+  nameWithType: CommandProcessor.BypassRateLimit
+- uid: GravyBot.Commands.CommandProcessor.IncomingMessage
+  name: IncomingMessage
+  href: api/GravyBot.Commands.CommandProcessor.html#GravyBot_Commands_CommandProcessor_IncomingMessage
+  commentId: P:GravyBot.Commands.CommandProcessor.IncomingMessage
+  fullName: GravyBot.Commands.CommandProcessor.IncomingMessage
+  nameWithType: CommandProcessor.IncomingMessage
+- uid: GravyBot.Commands.CommandProcessor.IncomingMessage*
+  name: IncomingMessage
+  href: api/GravyBot.Commands.CommandProcessor.html#GravyBot_Commands_CommandProcessor_IncomingMessage_
+  commentId: Overload:GravyBot.Commands.CommandProcessor.IncomingMessage
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandProcessor.IncomingMessage
+  nameWithType: CommandProcessor.IncomingMessage
+- uid: GravyBot.Commands.CommandProcessor.TriggeringCommandName
+  name: TriggeringCommandName
+  href: api/GravyBot.Commands.CommandProcessor.html#GravyBot_Commands_CommandProcessor_TriggeringCommandName
+  commentId: P:GravyBot.Commands.CommandProcessor.TriggeringCommandName
+  fullName: GravyBot.Commands.CommandProcessor.TriggeringCommandName
+  nameWithType: CommandProcessor.TriggeringCommandName
+- uid: GravyBot.Commands.CommandProcessor.TriggeringCommandName*
+  name: TriggeringCommandName
+  href: api/GravyBot.Commands.CommandProcessor.html#GravyBot_Commands_CommandProcessor_TriggeringCommandName_
+  commentId: Overload:GravyBot.Commands.CommandProcessor.TriggeringCommandName
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandProcessor.TriggeringCommandName
+  nameWithType: CommandProcessor.TriggeringCommandName
+- uid: GravyBot.Commands.CommandProcessorProvider
+  name: CommandProcessorProvider
+  href: api/GravyBot.Commands.CommandProcessorProvider.html
+  commentId: T:GravyBot.Commands.CommandProcessorProvider
+  fullName: GravyBot.Commands.CommandProcessorProvider
+  nameWithType: CommandProcessorProvider
+- uid: GravyBot.Commands.CommandProcessorProvider.#ctor(IServiceProvider)
+  name: CommandProcessorProvider(IServiceProvider)
+  href: api/GravyBot.Commands.CommandProcessorProvider.html#GravyBot_Commands_CommandProcessorProvider__ctor_IServiceProvider_
+  commentId: M:GravyBot.Commands.CommandProcessorProvider.#ctor(IServiceProvider)
+  fullName: GravyBot.Commands.CommandProcessorProvider.CommandProcessorProvider(IServiceProvider)
+  nameWithType: CommandProcessorProvider.CommandProcessorProvider(IServiceProvider)
+- uid: GravyBot.Commands.CommandProcessorProvider.#ctor*
+  name: CommandProcessorProvider
+  href: api/GravyBot.Commands.CommandProcessorProvider.html#GravyBot_Commands_CommandProcessorProvider__ctor_
+  commentId: Overload:GravyBot.Commands.CommandProcessorProvider.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandProcessorProvider.CommandProcessorProvider
+  nameWithType: CommandProcessorProvider.CommandProcessorProvider
+- uid: GravyBot.Commands.CommandProcessorProvider.GetProcessor(GravyBot.Commands.CommandBinding,PrivateMessage)
+  name: GetProcessor(CommandBinding, PrivateMessage)
+  href: api/GravyBot.Commands.CommandProcessorProvider.html#GravyBot_Commands_CommandProcessorProvider_GetProcessor_GravyBot_Commands_CommandBinding_PrivateMessage_
+  commentId: M:GravyBot.Commands.CommandProcessorProvider.GetProcessor(GravyBot.Commands.CommandBinding,PrivateMessage)
+  fullName: GravyBot.Commands.CommandProcessorProvider.GetProcessor(GravyBot.Commands.CommandBinding, PrivateMessage)
+  nameWithType: CommandProcessorProvider.GetProcessor(CommandBinding, PrivateMessage)
+- uid: GravyBot.Commands.CommandProcessorProvider.GetProcessor*
+  name: GetProcessor
+  href: api/GravyBot.Commands.CommandProcessorProvider.html#GravyBot_Commands_CommandProcessorProvider_GetProcessor_
+  commentId: Overload:GravyBot.Commands.CommandProcessorProvider.GetProcessor
+  isSpec: "True"
+  fullName: GravyBot.Commands.CommandProcessorProvider.GetProcessor
+  nameWithType: CommandProcessorProvider.GetProcessor
+- uid: GravyBot.Commands.DirectOnlyAttribute
+  name: DirectOnlyAttribute
+  href: api/GravyBot.Commands.DirectOnlyAttribute.html
+  commentId: T:GravyBot.Commands.DirectOnlyAttribute
+  fullName: GravyBot.Commands.DirectOnlyAttribute
+  nameWithType: DirectOnlyAttribute
+- uid: GravyBot.Commands.DuplicateCommandException
+  name: DuplicateCommandException
+  href: api/GravyBot.Commands.DuplicateCommandException.html
+  commentId: T:GravyBot.Commands.DuplicateCommandException
+  fullName: GravyBot.Commands.DuplicateCommandException
+  nameWithType: DuplicateCommandException
+- uid: GravyBot.Commands.DuplicateCommandException.#ctor(System.String,MethodInfo,MethodInfo)
+  name: DuplicateCommandException(String, MethodInfo, MethodInfo)
+  href: api/GravyBot.Commands.DuplicateCommandException.html#GravyBot_Commands_DuplicateCommandException__ctor_System_String_MethodInfo_MethodInfo_
+  commentId: M:GravyBot.Commands.DuplicateCommandException.#ctor(System.String,MethodInfo,MethodInfo)
+  fullName: GravyBot.Commands.DuplicateCommandException.DuplicateCommandException(System.String, MethodInfo, MethodInfo)
+  nameWithType: DuplicateCommandException.DuplicateCommandException(String, MethodInfo, MethodInfo)
+- uid: GravyBot.Commands.DuplicateCommandException.#ctor*
+  name: DuplicateCommandException
+  href: api/GravyBot.Commands.DuplicateCommandException.html#GravyBot_Commands_DuplicateCommandException__ctor_
+  commentId: Overload:GravyBot.Commands.DuplicateCommandException.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.DuplicateCommandException.DuplicateCommandException
+  nameWithType: DuplicateCommandException.DuplicateCommandException
+- uid: GravyBot.Commands.DuplicateCommandException.AttemptedCommand
+  name: AttemptedCommand
+  href: api/GravyBot.Commands.DuplicateCommandException.html#GravyBot_Commands_DuplicateCommandException_AttemptedCommand
+  commentId: P:GravyBot.Commands.DuplicateCommandException.AttemptedCommand
+  fullName: GravyBot.Commands.DuplicateCommandException.AttemptedCommand
+  nameWithType: DuplicateCommandException.AttemptedCommand
+- uid: GravyBot.Commands.DuplicateCommandException.AttemptedCommand*
+  name: AttemptedCommand
+  href: api/GravyBot.Commands.DuplicateCommandException.html#GravyBot_Commands_DuplicateCommandException_AttemptedCommand_
+  commentId: Overload:GravyBot.Commands.DuplicateCommandException.AttemptedCommand
+  isSpec: "True"
+  fullName: GravyBot.Commands.DuplicateCommandException.AttemptedCommand
+  nameWithType: DuplicateCommandException.AttemptedCommand
+- uid: GravyBot.Commands.DuplicateCommandException.ConflictingCommand
+  name: ConflictingCommand
+  href: api/GravyBot.Commands.DuplicateCommandException.html#GravyBot_Commands_DuplicateCommandException_ConflictingCommand
+  commentId: P:GravyBot.Commands.DuplicateCommandException.ConflictingCommand
+  fullName: GravyBot.Commands.DuplicateCommandException.ConflictingCommand
+  nameWithType: DuplicateCommandException.ConflictingCommand
+- uid: GravyBot.Commands.DuplicateCommandException.ConflictingCommand*
+  name: ConflictingCommand
+  href: api/GravyBot.Commands.DuplicateCommandException.html#GravyBot_Commands_DuplicateCommandException_ConflictingCommand_
+  commentId: Overload:GravyBot.Commands.DuplicateCommandException.ConflictingCommand
+  isSpec: "True"
+  fullName: GravyBot.Commands.DuplicateCommandException.ConflictingCommand
+  nameWithType: DuplicateCommandException.ConflictingCommand
+- uid: GravyBot.Commands.HelpCommandProcessor
+  name: HelpCommandProcessor
+  href: api/GravyBot.Commands.HelpCommandProcessor.html
+  commentId: T:GravyBot.Commands.HelpCommandProcessor
+  fullName: GravyBot.Commands.HelpCommandProcessor
+  nameWithType: HelpCommandProcessor
+- uid: GravyBot.Commands.HelpCommandProcessor.#ctor(GravyBot.Commands.ICommandOrchestratorBuilder,IOptions{GravyBot.IrcBotConfiguration})
+  name: HelpCommandProcessor(ICommandOrchestratorBuilder, IOptions<IrcBotConfiguration>)
+  href: api/GravyBot.Commands.HelpCommandProcessor.html#GravyBot_Commands_HelpCommandProcessor__ctor_GravyBot_Commands_ICommandOrchestratorBuilder_IOptions_GravyBot_IrcBotConfiguration__
+  commentId: M:GravyBot.Commands.HelpCommandProcessor.#ctor(GravyBot.Commands.ICommandOrchestratorBuilder,IOptions{GravyBot.IrcBotConfiguration})
+  name.vb: HelpCommandProcessor(ICommandOrchestratorBuilder, IOptions(Of IrcBotConfiguration))
+  fullName: GravyBot.Commands.HelpCommandProcessor.HelpCommandProcessor(GravyBot.Commands.ICommandOrchestratorBuilder, IOptions<GravyBot.IrcBotConfiguration>)
+  fullName.vb: GravyBot.Commands.HelpCommandProcessor.HelpCommandProcessor(GravyBot.Commands.ICommandOrchestratorBuilder, IOptions(Of GravyBot.IrcBotConfiguration))
+  nameWithType: HelpCommandProcessor.HelpCommandProcessor(ICommandOrchestratorBuilder, IOptions<IrcBotConfiguration>)
+  nameWithType.vb: HelpCommandProcessor.HelpCommandProcessor(ICommandOrchestratorBuilder, IOptions(Of IrcBotConfiguration))
+- uid: GravyBot.Commands.HelpCommandProcessor.#ctor*
+  name: HelpCommandProcessor
+  href: api/GravyBot.Commands.HelpCommandProcessor.html#GravyBot_Commands_HelpCommandProcessor__ctor_
+  commentId: Overload:GravyBot.Commands.HelpCommandProcessor.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.HelpCommandProcessor.HelpCommandProcessor
+  nameWithType: HelpCommandProcessor.HelpCommandProcessor
+- uid: GravyBot.Commands.HelpCommandProcessor.GetCommandInfo(System.String)
+  name: GetCommandInfo(String)
+  href: api/GravyBot.Commands.HelpCommandProcessor.html#GravyBot_Commands_HelpCommandProcessor_GetCommandInfo_System_String_
+  commentId: M:GravyBot.Commands.HelpCommandProcessor.GetCommandInfo(System.String)
+  fullName: GravyBot.Commands.HelpCommandProcessor.GetCommandInfo(System.String)
+  nameWithType: HelpCommandProcessor.GetCommandInfo(String)
+- uid: GravyBot.Commands.HelpCommandProcessor.GetCommandInfo*
+  name: GetCommandInfo
+  href: api/GravyBot.Commands.HelpCommandProcessor.html#GravyBot_Commands_HelpCommandProcessor_GetCommandInfo_
+  commentId: Overload:GravyBot.Commands.HelpCommandProcessor.GetCommandInfo
+  isSpec: "True"
+  fullName: GravyBot.Commands.HelpCommandProcessor.GetCommandInfo
+  nameWithType: HelpCommandProcessor.GetCommandInfo
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder
+  name: ICommandOrchestratorBuilder
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html
+  commentId: T:GravyBot.Commands.ICommandOrchestratorBuilder
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder
+  nameWithType: ICommandOrchestratorBuilder
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String,GravyBot.Commands.ChannelPolicy)
+  name: AddChannelPolicy(String, ChannelPolicy)
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_AddChannelPolicy_System_String_GravyBot_Commands_ChannelPolicy_
+  commentId: M:GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String,GravyBot.Commands.ChannelPolicy)
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String, GravyBot.Commands.ChannelPolicy)
+  nameWithType: ICommandOrchestratorBuilder.AddChannelPolicy(String, ChannelPolicy)
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String,IEnumerable{System.String},GravyBot.Commands.ChannelPolicy.PolicyMode)
+  name: AddChannelPolicy(String, IEnumerable<String>, ChannelPolicy.PolicyMode)
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_AddChannelPolicy_System_String_IEnumerable_System_String__GravyBot_Commands_ChannelPolicy_PolicyMode_
+  commentId: M:GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String,IEnumerable{System.String},GravyBot.Commands.ChannelPolicy.PolicyMode)
+  name.vb: AddChannelPolicy(String, IEnumerable(Of String), ChannelPolicy.PolicyMode)
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String, IEnumerable<System.String>, GravyBot.Commands.ChannelPolicy.PolicyMode)
+  fullName.vb: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy(System.String, IEnumerable(Of System.String), GravyBot.Commands.ChannelPolicy.PolicyMode)
+  nameWithType: ICommandOrchestratorBuilder.AddChannelPolicy(String, IEnumerable<String>, ChannelPolicy.PolicyMode)
+  nameWithType.vb: ICommandOrchestratorBuilder.AddChannelPolicy(String, IEnumerable(Of String), ChannelPolicy.PolicyMode)
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy*
+  name: AddChannelPolicy
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_AddChannelPolicy_
+  commentId: Overload:GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy
+  isSpec: "True"
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.AddChannelPolicy
+  nameWithType: ICommandOrchestratorBuilder.AddChannelPolicy
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.Bindings
+  name: Bindings
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_Bindings
+  commentId: P:GravyBot.Commands.ICommandOrchestratorBuilder.Bindings
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.Bindings
+  nameWithType: ICommandOrchestratorBuilder.Bindings
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.Bindings*
+  name: Bindings
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_Bindings_
+  commentId: Overload:GravyBot.Commands.ICommandOrchestratorBuilder.Bindings
+  isSpec: "True"
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.Bindings
+  nameWithType: ICommandOrchestratorBuilder.Bindings
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.Policies
+  name: Policies
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_Policies
+  commentId: P:GravyBot.Commands.ICommandOrchestratorBuilder.Policies
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.Policies
+  nameWithType: ICommandOrchestratorBuilder.Policies
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.Policies*
+  name: Policies
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_Policies_
+  commentId: Overload:GravyBot.Commands.ICommandOrchestratorBuilder.Policies
+  isSpec: "True"
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.Policies
+  nameWithType: ICommandOrchestratorBuilder.Policies
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor*
+  name: RegisterProcessor
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_RegisterProcessor_
+  commentId: Overload:GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor
+  isSpec: "True"
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor
+  nameWithType: ICommandOrchestratorBuilder.RegisterProcessor
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor``1
+  name: RegisterProcessor<TProcessor>()
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_RegisterProcessor__1
+  commentId: M:GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor``1
+  name.vb: RegisterProcessor(Of TProcessor)()
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor<TProcessor>()
+  fullName.vb: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessor(Of TProcessor)()
+  nameWithType: ICommandOrchestratorBuilder.RegisterProcessor<TProcessor>()
+  nameWithType.vb: ICommandOrchestratorBuilder.RegisterProcessor(Of TProcessor)()
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessors(Assembly)
+  name: RegisterProcessors(Assembly)
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_RegisterProcessors_Assembly_
+  commentId: M:GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessors(Assembly)
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessors(Assembly)
+  nameWithType: ICommandOrchestratorBuilder.RegisterProcessors(Assembly)
+- uid: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessors*
+  name: RegisterProcessors
+  href: api/GravyBot.Commands.ICommandOrchestratorBuilder.html#GravyBot_Commands_ICommandOrchestratorBuilder_RegisterProcessors_
+  commentId: Overload:GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessors
+  isSpec: "True"
+  fullName: GravyBot.Commands.ICommandOrchestratorBuilder.RegisterProcessors
+  nameWithType: ICommandOrchestratorBuilder.RegisterProcessors
+- uid: GravyBot.Commands.ICommandProcessorProvider
+  name: ICommandProcessorProvider
+  href: api/GravyBot.Commands.ICommandProcessorProvider.html
+  commentId: T:GravyBot.Commands.ICommandProcessorProvider
+  fullName: GravyBot.Commands.ICommandProcessorProvider
+  nameWithType: ICommandProcessorProvider
+- uid: GravyBot.Commands.ICommandProcessorProvider.GetProcessor(GravyBot.Commands.CommandBinding,PrivateMessage)
+  name: GetProcessor(CommandBinding, PrivateMessage)
+  href: api/GravyBot.Commands.ICommandProcessorProvider.html#GravyBot_Commands_ICommandProcessorProvider_GetProcessor_GravyBot_Commands_CommandBinding_PrivateMessage_
+  commentId: M:GravyBot.Commands.ICommandProcessorProvider.GetProcessor(GravyBot.Commands.CommandBinding,PrivateMessage)
+  fullName: GravyBot.Commands.ICommandProcessorProvider.GetProcessor(GravyBot.Commands.CommandBinding, PrivateMessage)
+  nameWithType: ICommandProcessorProvider.GetProcessor(CommandBinding, PrivateMessage)
+- uid: GravyBot.Commands.ICommandProcessorProvider.GetProcessor*
+  name: GetProcessor
+  href: api/GravyBot.Commands.ICommandProcessorProvider.html#GravyBot_Commands_ICommandProcessorProvider_GetProcessor_
+  commentId: Overload:GravyBot.Commands.ICommandProcessorProvider.GetProcessor
+  isSpec: "True"
+  fullName: GravyBot.Commands.ICommandProcessorProvider.GetProcessor
+  nameWithType: ICommandProcessorProvider.GetProcessor
+- uid: GravyBot.Commands.InvalidCommandUsageException
+  name: InvalidCommandUsageException
+  href: api/GravyBot.Commands.InvalidCommandUsageException.html
+  commentId: T:GravyBot.Commands.InvalidCommandUsageException
+  fullName: GravyBot.Commands.InvalidCommandUsageException
+  nameWithType: InvalidCommandUsageException
+- uid: GravyBot.Commands.InvalidCommandUsageException.#ctor(System.String)
+  name: InvalidCommandUsageException(String)
+  href: api/GravyBot.Commands.InvalidCommandUsageException.html#GravyBot_Commands_InvalidCommandUsageException__ctor_System_String_
+  commentId: M:GravyBot.Commands.InvalidCommandUsageException.#ctor(System.String)
+  fullName: GravyBot.Commands.InvalidCommandUsageException.InvalidCommandUsageException(System.String)
+  nameWithType: InvalidCommandUsageException.InvalidCommandUsageException(String)
+- uid: GravyBot.Commands.InvalidCommandUsageException.#ctor*
+  name: InvalidCommandUsageException
+  href: api/GravyBot.Commands.InvalidCommandUsageException.html#GravyBot_Commands_InvalidCommandUsageException__ctor_
+  commentId: Overload:GravyBot.Commands.InvalidCommandUsageException.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.InvalidCommandUsageException.InvalidCommandUsageException
+  nameWithType: InvalidCommandUsageException.InvalidCommandUsageException
+- uid: GravyBot.Commands.InvalidCommandUsageException.ErrorMessage
+  name: ErrorMessage
+  href: api/GravyBot.Commands.InvalidCommandUsageException.html#GravyBot_Commands_InvalidCommandUsageException_ErrorMessage
+  commentId: P:GravyBot.Commands.InvalidCommandUsageException.ErrorMessage
+  fullName: GravyBot.Commands.InvalidCommandUsageException.ErrorMessage
+  nameWithType: InvalidCommandUsageException.ErrorMessage
+- uid: GravyBot.Commands.InvalidCommandUsageException.ErrorMessage*
+  name: ErrorMessage
+  href: api/GravyBot.Commands.InvalidCommandUsageException.html#GravyBot_Commands_InvalidCommandUsageException_ErrorMessage_
+  commentId: Overload:GravyBot.Commands.InvalidCommandUsageException.ErrorMessage
+  isSpec: "True"
+  fullName: GravyBot.Commands.InvalidCommandUsageException.ErrorMessage
+  nameWithType: InvalidCommandUsageException.ErrorMessage
+- uid: GravyBot.Commands.InvalidPolicyException
+  name: InvalidPolicyException
+  href: api/GravyBot.Commands.InvalidPolicyException.html
+  commentId: T:GravyBot.Commands.InvalidPolicyException
+  fullName: GravyBot.Commands.InvalidPolicyException
+  nameWithType: InvalidPolicyException
+- uid: GravyBot.Commands.InvalidPolicyException.#ctor(System.String)
+  name: InvalidPolicyException(String)
+  href: api/GravyBot.Commands.InvalidPolicyException.html#GravyBot_Commands_InvalidPolicyException__ctor_System_String_
+  commentId: M:GravyBot.Commands.InvalidPolicyException.#ctor(System.String)
+  fullName: GravyBot.Commands.InvalidPolicyException.InvalidPolicyException(System.String)
+  nameWithType: InvalidPolicyException.InvalidPolicyException(String)
+- uid: GravyBot.Commands.InvalidPolicyException.#ctor*
+  name: InvalidPolicyException
+  href: api/GravyBot.Commands.InvalidPolicyException.html#GravyBot_Commands_InvalidPolicyException__ctor_
+  commentId: Overload:GravyBot.Commands.InvalidPolicyException.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.InvalidPolicyException.InvalidPolicyException
+  nameWithType: InvalidPolicyException.InvalidPolicyException
+- uid: GravyBot.Commands.RateLimitAttribute
+  name: RateLimitAttribute
+  href: api/GravyBot.Commands.RateLimitAttribute.html
+  commentId: T:GravyBot.Commands.RateLimitAttribute
+  fullName: GravyBot.Commands.RateLimitAttribute
+  nameWithType: RateLimitAttribute
+- uid: GravyBot.Commands.RateLimitAttribute.#ctor(System.Double,GravyBot.Commands.TimeUnit)
+  name: RateLimitAttribute(Double, TimeUnit)
+  href: api/GravyBot.Commands.RateLimitAttribute.html#GravyBot_Commands_RateLimitAttribute__ctor_System_Double_GravyBot_Commands_TimeUnit_
+  commentId: M:GravyBot.Commands.RateLimitAttribute.#ctor(System.Double,GravyBot.Commands.TimeUnit)
+  fullName: GravyBot.Commands.RateLimitAttribute.RateLimitAttribute(System.Double, GravyBot.Commands.TimeUnit)
+  nameWithType: RateLimitAttribute.RateLimitAttribute(Double, TimeUnit)
+- uid: GravyBot.Commands.RateLimitAttribute.#ctor*
+  name: RateLimitAttribute
+  href: api/GravyBot.Commands.RateLimitAttribute.html#GravyBot_Commands_RateLimitAttribute__ctor_
+  commentId: Overload:GravyBot.Commands.RateLimitAttribute.#ctor
+  isSpec: "True"
+  fullName: GravyBot.Commands.RateLimitAttribute.RateLimitAttribute
+  nameWithType: RateLimitAttribute.RateLimitAttribute
+- uid: GravyBot.Commands.RateLimitAttribute.CooldownPeriod
+  name: CooldownPeriod
+  href: api/GravyBot.Commands.RateLimitAttribute.html#GravyBot_Commands_RateLimitAttribute_CooldownPeriod
+  commentId: P:GravyBot.Commands.RateLimitAttribute.CooldownPeriod
+  fullName: GravyBot.Commands.RateLimitAttribute.CooldownPeriod
+  nameWithType: RateLimitAttribute.CooldownPeriod
+- uid: GravyBot.Commands.RateLimitAttribute.CooldownPeriod*
+  name: CooldownPeriod
+  href: api/GravyBot.Commands.RateLimitAttribute.html#GravyBot_Commands_RateLimitAttribute_CooldownPeriod_
+  commentId: Overload:GravyBot.Commands.RateLimitAttribute.CooldownPeriod
+  isSpec: "True"
+  fullName: GravyBot.Commands.RateLimitAttribute.CooldownPeriod
+  nameWithType: RateLimitAttribute.CooldownPeriod
+- uid: GravyBot.Commands.StartupExtensions
+  name: StartupExtensions
+  href: api/GravyBot.Commands.StartupExtensions.html
+  commentId: T:GravyBot.Commands.StartupExtensions
+  fullName: GravyBot.Commands.StartupExtensions
+  nameWithType: StartupExtensions
+- uid: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(GravyBot.BotRulePipeline)
+  name: AddCommandOrchestrator(BotRulePipeline)
+  href: api/GravyBot.Commands.StartupExtensions.html#GravyBot_Commands_StartupExtensions_AddCommandOrchestrator_GravyBot_BotRulePipeline_
+  commentId: M:GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(GravyBot.BotRulePipeline)
+  fullName: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(GravyBot.BotRulePipeline)
+  nameWithType: StartupExtensions.AddCommandOrchestrator(BotRulePipeline)
+- uid: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(IServiceCollection,Action{GravyBot.Commands.CommandOrchestratorBuilder})
+  name: AddCommandOrchestrator(IServiceCollection, Action<CommandOrchestratorBuilder>)
+  href: api/GravyBot.Commands.StartupExtensions.html#GravyBot_Commands_StartupExtensions_AddCommandOrchestrator_IServiceCollection_Action_GravyBot_Commands_CommandOrchestratorBuilder__
+  commentId: M:GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(IServiceCollection,Action{GravyBot.Commands.CommandOrchestratorBuilder})
+  name.vb: AddCommandOrchestrator(IServiceCollection, Action(Of CommandOrchestratorBuilder))
+  fullName: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(IServiceCollection, Action<GravyBot.Commands.CommandOrchestratorBuilder>)
+  fullName.vb: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator(IServiceCollection, Action(Of GravyBot.Commands.CommandOrchestratorBuilder))
+  nameWithType: StartupExtensions.AddCommandOrchestrator(IServiceCollection, Action<CommandOrchestratorBuilder>)
+  nameWithType.vb: StartupExtensions.AddCommandOrchestrator(IServiceCollection, Action(Of CommandOrchestratorBuilder))
+- uid: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator*
+  name: AddCommandOrchestrator
+  href: api/GravyBot.Commands.StartupExtensions.html#GravyBot_Commands_StartupExtensions_AddCommandOrchestrator_
+  commentId: Overload:GravyBot.Commands.StartupExtensions.AddCommandOrchestrator
+  isSpec: "True"
+  fullName: GravyBot.Commands.StartupExtensions.AddCommandOrchestrator
+  nameWithType: StartupExtensions.AddCommandOrchestrator
+- uid: GravyBot.Commands.TimeUnit
+  name: TimeUnit
+  href: api/GravyBot.Commands.TimeUnit.html
+  commentId: T:GravyBot.Commands.TimeUnit
+  fullName: GravyBot.Commands.TimeUnit
+  nameWithType: TimeUnit
+- uid: GravyBot.Commands.TimeUnit.Day
+  name: Day
+  href: api/GravyBot.Commands.TimeUnit.html#GravyBot_Commands_TimeUnit_Day
+  commentId: F:GravyBot.Commands.TimeUnit.Day
+  fullName: GravyBot.Commands.TimeUnit.Day
+  nameWithType: TimeUnit.Day
+- uid: GravyBot.Commands.TimeUnit.Hour
+  name: Hour
+  href: api/GravyBot.Commands.TimeUnit.html#GravyBot_Commands_TimeUnit_Hour
+  commentId: F:GravyBot.Commands.TimeUnit.Hour
+  fullName: GravyBot.Commands.TimeUnit.Hour
+  nameWithType: TimeUnit.Hour
+- uid: GravyBot.Commands.TimeUnit.Millisecond
+  name: Millisecond
+  href: api/GravyBot.Commands.TimeUnit.html#GravyBot_Commands_TimeUnit_Millisecond
+  commentId: F:GravyBot.Commands.TimeUnit.Millisecond
+  fullName: GravyBot.Commands.TimeUnit.Millisecond
+  nameWithType: TimeUnit.Millisecond
+- uid: GravyBot.Commands.TimeUnit.Minute
+  name: Minute
+  href: api/GravyBot.Commands.TimeUnit.html#GravyBot_Commands_TimeUnit_Minute
+  commentId: F:GravyBot.Commands.TimeUnit.Minute
+  fullName: GravyBot.Commands.TimeUnit.Minute
+  nameWithType: TimeUnit.Minute
+- uid: GravyBot.Commands.TimeUnit.Second
+  name: Second
+  href: api/GravyBot.Commands.TimeUnit.html#GravyBot_Commands_TimeUnit_Second
+  commentId: F:GravyBot.Commands.TimeUnit.Second
+  fullName: GravyBot.Commands.TimeUnit.Second
+  nameWithType: TimeUnit.Second
+- uid: GravyBot.DefaultRules
+  name: GravyBot.DefaultRules
+  href: api/GravyBot.DefaultRules.html
+  commentId: N:GravyBot.DefaultRules
+  fullName: GravyBot.DefaultRules
+  nameWithType: GravyBot.DefaultRules
+- uid: GravyBot.DefaultRules.Rules
+  name: GravyBot.DefaultRules.Rules
+  href: api/GravyBot.DefaultRules.Rules.html
+  commentId: N:GravyBot.DefaultRules.Rules
+  fullName: GravyBot.DefaultRules.Rules
+  nameWithType: GravyBot.DefaultRules.Rules
+- uid: GravyBot.DefaultRules.Rules.ExceptionLoggingRule
+  name: ExceptionLoggingRule
+  href: api/GravyBot.DefaultRules.Rules.ExceptionLoggingRule.html
+  commentId: T:GravyBot.DefaultRules.Rules.ExceptionLoggingRule
+  fullName: GravyBot.DefaultRules.Rules.ExceptionLoggingRule
+  nameWithType: ExceptionLoggingRule
+- uid: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.#ctor(IOptions{GravyBot.IrcBotConfiguration})
+  name: ExceptionLoggingRule(IOptions<IrcBotConfiguration>)
+  href: api/GravyBot.DefaultRules.Rules.ExceptionLoggingRule.html#GravyBot_DefaultRules_Rules_ExceptionLoggingRule__ctor_IOptions_GravyBot_IrcBotConfiguration__
+  commentId: M:GravyBot.DefaultRules.Rules.ExceptionLoggingRule.#ctor(IOptions{GravyBot.IrcBotConfiguration})
+  name.vb: ExceptionLoggingRule(IOptions(Of IrcBotConfiguration))
+  fullName: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.ExceptionLoggingRule(IOptions<GravyBot.IrcBotConfiguration>)
+  fullName.vb: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.ExceptionLoggingRule(IOptions(Of GravyBot.IrcBotConfiguration))
+  nameWithType: ExceptionLoggingRule.ExceptionLoggingRule(IOptions<IrcBotConfiguration>)
+  nameWithType.vb: ExceptionLoggingRule.ExceptionLoggingRule(IOptions(Of IrcBotConfiguration))
+- uid: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.#ctor*
+  name: ExceptionLoggingRule
+  href: api/GravyBot.DefaultRules.Rules.ExceptionLoggingRule.html#GravyBot_DefaultRules_Rules_ExceptionLoggingRule__ctor_
+  commentId: Overload:GravyBot.DefaultRules.Rules.ExceptionLoggingRule.#ctor
+  isSpec: "True"
+  fullName: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.ExceptionLoggingRule
+  nameWithType: ExceptionLoggingRule.ExceptionLoggingRule
+- uid: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.Respond(Exception)
+  name: Respond(Exception)
+  href: api/GravyBot.DefaultRules.Rules.ExceptionLoggingRule.html#GravyBot_DefaultRules_Rules_ExceptionLoggingRule_Respond_Exception_
+  commentId: M:GravyBot.DefaultRules.Rules.ExceptionLoggingRule.Respond(Exception)
+  fullName: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.Respond(Exception)
+  nameWithType: ExceptionLoggingRule.Respond(Exception)
+- uid: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.Respond*
+  name: Respond
+  href: api/GravyBot.DefaultRules.Rules.ExceptionLoggingRule.html#GravyBot_DefaultRules_Rules_ExceptionLoggingRule_Respond_
+  commentId: Overload:GravyBot.DefaultRules.Rules.ExceptionLoggingRule.Respond
+  isSpec: "True"
+  fullName: GravyBot.DefaultRules.Rules.ExceptionLoggingRule.Respond
+  nameWithType: ExceptionLoggingRule.Respond
+- uid: GravyBot.DefaultRules.Rules.HelloRule
+  name: HelloRule
+  href: api/GravyBot.DefaultRules.Rules.HelloRule.html
+  commentId: T:GravyBot.DefaultRules.Rules.HelloRule
+  fullName: GravyBot.DefaultRules.Rules.HelloRule
+  nameWithType: HelloRule
+- uid: GravyBot.DefaultRules.Rules.HelloRule.#ctor(IOptions{GravyBot.IrcBotConfiguration})
+  name: HelloRule(IOptions<IrcBotConfiguration>)
+  href: api/GravyBot.DefaultRules.Rules.HelloRule.html#GravyBot_DefaultRules_Rules_HelloRule__ctor_IOptions_GravyBot_IrcBotConfiguration__
+  commentId: M:GravyBot.DefaultRules.Rules.HelloRule.#ctor(IOptions{GravyBot.IrcBotConfiguration})
+  name.vb: HelloRule(IOptions(Of IrcBotConfiguration))
+  fullName: GravyBot.DefaultRules.Rules.HelloRule.HelloRule(IOptions<GravyBot.IrcBotConfiguration>)
+  fullName.vb: GravyBot.DefaultRules.Rules.HelloRule.HelloRule(IOptions(Of GravyBot.IrcBotConfiguration))
+  nameWithType: HelloRule.HelloRule(IOptions<IrcBotConfiguration>)
+  nameWithType.vb: HelloRule.HelloRule(IOptions(Of IrcBotConfiguration))
+- uid: GravyBot.DefaultRules.Rules.HelloRule.#ctor*
+  name: HelloRule
+  href: api/GravyBot.DefaultRules.Rules.HelloRule.html#GravyBot_DefaultRules_Rules_HelloRule__ctor_
+  commentId: Overload:GravyBot.DefaultRules.Rules.HelloRule.#ctor
+  isSpec: "True"
+  fullName: GravyBot.DefaultRules.Rules.HelloRule.HelloRule
+  nameWithType: HelloRule.HelloRule
+- uid: GravyBot.DefaultRules.Rules.HelloRule.Respond(PrivateMessage)
+  name: Respond(PrivateMessage)
+  href: api/GravyBot.DefaultRules.Rules.HelloRule.html#GravyBot_DefaultRules_Rules_HelloRule_Respond_PrivateMessage_
+  commentId: M:GravyBot.DefaultRules.Rules.HelloRule.Respond(PrivateMessage)
+  fullName: GravyBot.DefaultRules.Rules.HelloRule.Respond(PrivateMessage)
+  nameWithType: HelloRule.Respond(PrivateMessage)
+- uid: GravyBot.DefaultRules.Rules.HelloRule.Respond*
+  name: Respond
+  href: api/GravyBot.DefaultRules.Rules.HelloRule.html#GravyBot_DefaultRules_Rules_HelloRule_Respond_
+  commentId: Overload:GravyBot.DefaultRules.Rules.HelloRule.Respond
+  isSpec: "True"
+  fullName: GravyBot.DefaultRules.Rules.HelloRule.Respond
+  nameWithType: HelloRule.Respond
+- uid: GravyBot.DefaultRules.StartupExtensions
+  name: StartupExtensions
+  href: api/GravyBot.DefaultRules.StartupExtensions.html
+  commentId: T:GravyBot.DefaultRules.StartupExtensions
+  fullName: GravyBot.DefaultRules.StartupExtensions
+  nameWithType: StartupExtensions
+- uid: GravyBot.DefaultRules.StartupExtensions.AddSampleRules(GravyBot.BotRulePipeline)
+  name: AddSampleRules(BotRulePipeline)
+  href: api/GravyBot.DefaultRules.StartupExtensions.html#GravyBot_DefaultRules_StartupExtensions_AddSampleRules_GravyBot_BotRulePipeline_
+  commentId: M:GravyBot.DefaultRules.StartupExtensions.AddSampleRules(GravyBot.BotRulePipeline)
+  fullName: GravyBot.DefaultRules.StartupExtensions.AddSampleRules(GravyBot.BotRulePipeline)
+  nameWithType: StartupExtensions.AddSampleRules(BotRulePipeline)
+- uid: GravyBot.DefaultRules.StartupExtensions.AddSampleRules*
+  name: AddSampleRules
+  href: api/GravyBot.DefaultRules.StartupExtensions.html#GravyBot_DefaultRules_StartupExtensions_AddSampleRules_
+  commentId: Overload:GravyBot.DefaultRules.StartupExtensions.AddSampleRules
+  isSpec: "True"
+  fullName: GravyBot.DefaultRules.StartupExtensions.AddSampleRules
+  nameWithType: StartupExtensions.AddSampleRules
+- uid: GravyBot.Extensions
+  name: Extensions
+  href: api/GravyBot.Extensions.html
+  commentId: T:GravyBot.Extensions
+  fullName: GravyBot.Extensions
+  nameWithType: Extensions
+- uid: GravyBot.Extensions.AddIrcBot(IServiceCollection,Action{GravyBot.IrcBotConfiguration},Action{GravyBot.BotRulePipeline})
+  name: AddIrcBot(IServiceCollection, Action<IrcBotConfiguration>, Action<BotRulePipeline>)
+  href: api/GravyBot.Extensions.html#GravyBot_Extensions_AddIrcBot_IServiceCollection_Action_GravyBot_IrcBotConfiguration__Action_GravyBot_BotRulePipeline__
+  commentId: M:GravyBot.Extensions.AddIrcBot(IServiceCollection,Action{GravyBot.IrcBotConfiguration},Action{GravyBot.BotRulePipeline})
+  name.vb: AddIrcBot(IServiceCollection, Action(Of IrcBotConfiguration), Action(Of BotRulePipeline))
+  fullName: GravyBot.Extensions.AddIrcBot(IServiceCollection, Action<GravyBot.IrcBotConfiguration>, Action<GravyBot.BotRulePipeline>)
+  fullName.vb: GravyBot.Extensions.AddIrcBot(IServiceCollection, Action(Of GravyBot.IrcBotConfiguration), Action(Of GravyBot.BotRulePipeline))
+  nameWithType: Extensions.AddIrcBot(IServiceCollection, Action<IrcBotConfiguration>, Action<BotRulePipeline>)
+  nameWithType.vb: Extensions.AddIrcBot(IServiceCollection, Action(Of IrcBotConfiguration), Action(Of BotRulePipeline))
+- uid: GravyBot.Extensions.AddIrcBot(IServiceCollection,IConfigurationSection,Action{GravyBot.BotRulePipeline})
+  name: AddIrcBot(IServiceCollection, IConfigurationSection, Action<BotRulePipeline>)
+  href: api/GravyBot.Extensions.html#GravyBot_Extensions_AddIrcBot_IServiceCollection_IConfigurationSection_Action_GravyBot_BotRulePipeline__
+  commentId: M:GravyBot.Extensions.AddIrcBot(IServiceCollection,IConfigurationSection,Action{GravyBot.BotRulePipeline})
+  name.vb: AddIrcBot(IServiceCollection, IConfigurationSection, Action(Of BotRulePipeline))
+  fullName: GravyBot.Extensions.AddIrcBot(IServiceCollection, IConfigurationSection, Action<GravyBot.BotRulePipeline>)
+  fullName.vb: GravyBot.Extensions.AddIrcBot(IServiceCollection, IConfigurationSection, Action(Of GravyBot.BotRulePipeline))
+  nameWithType: Extensions.AddIrcBot(IServiceCollection, IConfigurationSection, Action<BotRulePipeline>)
+  nameWithType.vb: Extensions.AddIrcBot(IServiceCollection, IConfigurationSection, Action(Of BotRulePipeline))
+- uid: GravyBot.Extensions.AddIrcBot*
+  name: AddIrcBot
+  href: api/GravyBot.Extensions.html#GravyBot_Extensions_AddIrcBot_
+  commentId: Overload:GravyBot.Extensions.AddIrcBot
+  isSpec: "True"
+  fullName: GravyBot.Extensions.AddIrcBot
+  nameWithType: Extensions.AddIrcBot
+- uid: GravyBot.IAsyncMessageRule
+  name: IAsyncMessageRule
+  href: api/GravyBot.IAsyncMessageRule.html
+  commentId: T:GravyBot.IAsyncMessageRule
+  fullName: GravyBot.IAsyncMessageRule
+  nameWithType: IAsyncMessageRule
+- uid: GravyBot.IAsyncMessageRule.Matches(System.Object)
+  name: Matches(Object)
+  href: api/GravyBot.IAsyncMessageRule.html#GravyBot_IAsyncMessageRule_Matches_System_Object_
+  commentId: M:GravyBot.IAsyncMessageRule.Matches(System.Object)
+  fullName: GravyBot.IAsyncMessageRule.Matches(System.Object)
+  nameWithType: IAsyncMessageRule.Matches(Object)
+- uid: GravyBot.IAsyncMessageRule.Matches*
+  name: Matches
+  href: api/GravyBot.IAsyncMessageRule.html#GravyBot_IAsyncMessageRule_Matches_
+  commentId: Overload:GravyBot.IAsyncMessageRule.Matches
+  isSpec: "True"
+  fullName: GravyBot.IAsyncMessageRule.Matches
+  nameWithType: IAsyncMessageRule.Matches
+- uid: GravyBot.IAsyncMessageRule.RespondAsync(System.Object)
+  name: RespondAsync(Object)
+  href: api/GravyBot.IAsyncMessageRule.html#GravyBot_IAsyncMessageRule_RespondAsync_System_Object_
+  commentId: M:GravyBot.IAsyncMessageRule.RespondAsync(System.Object)
+  fullName: GravyBot.IAsyncMessageRule.RespondAsync(System.Object)
+  nameWithType: IAsyncMessageRule.RespondAsync(Object)
+- uid: GravyBot.IAsyncMessageRule.RespondAsync*
+  name: RespondAsync
+  href: api/GravyBot.IAsyncMessageRule.html#GravyBot_IAsyncMessageRule_RespondAsync_
+  commentId: Overload:GravyBot.IAsyncMessageRule.RespondAsync
+  isSpec: "True"
+  fullName: GravyBot.IAsyncMessageRule.RespondAsync
+  nameWithType: IAsyncMessageRule.RespondAsync
+- uid: GravyBot.IAsyncMessageRule`1
+  name: IAsyncMessageRule<TMessage>
+  href: api/GravyBot.IAsyncMessageRule-1.html
+  commentId: T:GravyBot.IAsyncMessageRule`1
+  name.vb: IAsyncMessageRule(Of TMessage)
+  fullName: GravyBot.IAsyncMessageRule<TMessage>
+  fullName.vb: GravyBot.IAsyncMessageRule(Of TMessage)
+  nameWithType: IAsyncMessageRule<TMessage>
+  nameWithType.vb: IAsyncMessageRule(Of TMessage)
+- uid: GravyBot.IAsyncMessageRule`1.Matches(`0)
+  name: Matches(TMessage)
+  href: api/GravyBot.IAsyncMessageRule-1.html#GravyBot_IAsyncMessageRule_1_Matches__0_
+  commentId: M:GravyBot.IAsyncMessageRule`1.Matches(`0)
+  fullName: GravyBot.IAsyncMessageRule<TMessage>.Matches(TMessage)
+  fullName.vb: GravyBot.IAsyncMessageRule(Of TMessage).Matches(TMessage)
+  nameWithType: IAsyncMessageRule<TMessage>.Matches(TMessage)
+  nameWithType.vb: IAsyncMessageRule(Of TMessage).Matches(TMessage)
+- uid: GravyBot.IAsyncMessageRule`1.Matches*
+  name: Matches
+  href: api/GravyBot.IAsyncMessageRule-1.html#GravyBot_IAsyncMessageRule_1_Matches_
+  commentId: Overload:GravyBot.IAsyncMessageRule`1.Matches
+  isSpec: "True"
+  fullName: GravyBot.IAsyncMessageRule<TMessage>.Matches
+  fullName.vb: GravyBot.IAsyncMessageRule(Of TMessage).Matches
+  nameWithType: IAsyncMessageRule<TMessage>.Matches
+  nameWithType.vb: IAsyncMessageRule(Of TMessage).Matches
+- uid: GravyBot.IAsyncMessageRule`1.RespondAsync(`0)
+  name: RespondAsync(TMessage)
+  href: api/GravyBot.IAsyncMessageRule-1.html#GravyBot_IAsyncMessageRule_1_RespondAsync__0_
+  commentId: M:GravyBot.IAsyncMessageRule`1.RespondAsync(`0)
+  fullName: GravyBot.IAsyncMessageRule<TMessage>.RespondAsync(TMessage)
+  fullName.vb: GravyBot.IAsyncMessageRule(Of TMessage).RespondAsync(TMessage)
+  nameWithType: IAsyncMessageRule<TMessage>.RespondAsync(TMessage)
+  nameWithType.vb: IAsyncMessageRule(Of TMessage).RespondAsync(TMessage)
+- uid: GravyBot.IAsyncMessageRule`1.RespondAsync*
+  name: RespondAsync
+  href: api/GravyBot.IAsyncMessageRule-1.html#GravyBot_IAsyncMessageRule_1_RespondAsync_
+  commentId: Overload:GravyBot.IAsyncMessageRule`1.RespondAsync
+  isSpec: "True"
+  fullName: GravyBot.IAsyncMessageRule<TMessage>.RespondAsync
+  fullName.vb: GravyBot.IAsyncMessageRule(Of TMessage).RespondAsync
+  nameWithType: IAsyncMessageRule<TMessage>.RespondAsync
+  nameWithType.vb: IAsyncMessageRule(Of TMessage).RespondAsync
+- uid: GravyBot.IMessageRule
+  name: IMessageRule
+  href: api/GravyBot.IMessageRule.html
+  commentId: T:GravyBot.IMessageRule
+  fullName: GravyBot.IMessageRule
+  nameWithType: IMessageRule
+- uid: GravyBot.IMessageRule.Respond(System.Object)
+  name: Respond(Object)
+  href: api/GravyBot.IMessageRule.html#GravyBot_IMessageRule_Respond_System_Object_
+  commentId: M:GravyBot.IMessageRule.Respond(System.Object)
+  fullName: GravyBot.IMessageRule.Respond(System.Object)
+  nameWithType: IMessageRule.Respond(Object)
+- uid: GravyBot.IMessageRule.Respond*
+  name: Respond
+  href: api/GravyBot.IMessageRule.html#GravyBot_IMessageRule_Respond_
+  commentId: Overload:GravyBot.IMessageRule.Respond
+  isSpec: "True"
+  fullName: GravyBot.IMessageRule.Respond
+  nameWithType: IMessageRule.Respond
+- uid: GravyBot.IMessageRule`1
+  name: IMessageRule<TMessage>
+  href: api/GravyBot.IMessageRule-1.html
+  commentId: T:GravyBot.IMessageRule`1
+  name.vb: IMessageRule(Of TMessage)
+  fullName: GravyBot.IMessageRule<TMessage>
+  fullName.vb: GravyBot.IMessageRule(Of TMessage)
+  nameWithType: IMessageRule<TMessage>
+  nameWithType.vb: IMessageRule(Of TMessage)
+- uid: GravyBot.IMessageRule`1.Respond(`0)
+  name: Respond(TMessage)
+  href: api/GravyBot.IMessageRule-1.html#GravyBot_IMessageRule_1_Respond__0_
+  commentId: M:GravyBot.IMessageRule`1.Respond(`0)
+  fullName: GravyBot.IMessageRule<TMessage>.Respond(TMessage)
+  fullName.vb: GravyBot.IMessageRule(Of TMessage).Respond(TMessage)
+  nameWithType: IMessageRule<TMessage>.Respond(TMessage)
+  nameWithType.vb: IMessageRule(Of TMessage).Respond(TMessage)
+- uid: GravyBot.IMessageRule`1.Respond*
+  name: Respond
+  href: api/GravyBot.IMessageRule-1.html#GravyBot_IMessageRule_1_Respond_
+  commentId: Overload:GravyBot.IMessageRule`1.Respond
+  isSpec: "True"
+  fullName: GravyBot.IMessageRule<TMessage>.Respond
+  fullName.vb: GravyBot.IMessageRule(Of TMessage).Respond
+  nameWithType: IMessageRule<TMessage>.Respond
+  nameWithType.vb: IMessageRule(Of TMessage).Respond
+- uid: GravyBot.IrcBotConfiguration
+  name: IrcBotConfiguration
+  href: api/GravyBot.IrcBotConfiguration.html
+  commentId: T:GravyBot.IrcBotConfiguration
+  fullName: GravyBot.IrcBotConfiguration
+  nameWithType: IrcBotConfiguration
+- uid: GravyBot.IrcBotConfiguration.Channels
+  name: Channels
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Channels
+  commentId: P:GravyBot.IrcBotConfiguration.Channels
+  fullName: GravyBot.IrcBotConfiguration.Channels
+  nameWithType: IrcBotConfiguration.Channels
+- uid: GravyBot.IrcBotConfiguration.Channels*
+  name: Channels
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Channels_
+  commentId: Overload:GravyBot.IrcBotConfiguration.Channels
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.Channels
+  nameWithType: IrcBotConfiguration.Channels
+- uid: GravyBot.IrcBotConfiguration.CommandPrefix
+  name: CommandPrefix
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_CommandPrefix
+  commentId: P:GravyBot.IrcBotConfiguration.CommandPrefix
+  fullName: GravyBot.IrcBotConfiguration.CommandPrefix
+  nameWithType: IrcBotConfiguration.CommandPrefix
+- uid: GravyBot.IrcBotConfiguration.CommandPrefix*
+  name: CommandPrefix
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_CommandPrefix_
+  commentId: Overload:GravyBot.IrcBotConfiguration.CommandPrefix
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.CommandPrefix
+  nameWithType: IrcBotConfiguration.CommandPrefix
+- uid: GravyBot.IrcBotConfiguration.Identity
+  name: Identity
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Identity
+  commentId: P:GravyBot.IrcBotConfiguration.Identity
+  fullName: GravyBot.IrcBotConfiguration.Identity
+  nameWithType: IrcBotConfiguration.Identity
+- uid: GravyBot.IrcBotConfiguration.Identity*
+  name: Identity
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Identity_
+  commentId: Overload:GravyBot.IrcBotConfiguration.Identity
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.Identity
+  nameWithType: IrcBotConfiguration.Identity
+- uid: GravyBot.IrcBotConfiguration.LogChannel
+  name: LogChannel
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_LogChannel
+  commentId: P:GravyBot.IrcBotConfiguration.LogChannel
+  fullName: GravyBot.IrcBotConfiguration.LogChannel
+  nameWithType: IrcBotConfiguration.LogChannel
+- uid: GravyBot.IrcBotConfiguration.LogChannel*
+  name: LogChannel
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_LogChannel_
+  commentId: Overload:GravyBot.IrcBotConfiguration.LogChannel
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.LogChannel
+  nameWithType: IrcBotConfiguration.LogChannel
+- uid: GravyBot.IrcBotConfiguration.MaxMessageHistory
+  name: MaxMessageHistory
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_MaxMessageHistory
+  commentId: P:GravyBot.IrcBotConfiguration.MaxMessageHistory
+  fullName: GravyBot.IrcBotConfiguration.MaxMessageHistory
+  nameWithType: IrcBotConfiguration.MaxMessageHistory
+- uid: GravyBot.IrcBotConfiguration.MaxMessageHistory*
+  name: MaxMessageHistory
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_MaxMessageHistory_
+  commentId: Overload:GravyBot.IrcBotConfiguration.MaxMessageHistory
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.MaxMessageHistory
+  nameWithType: IrcBotConfiguration.MaxMessageHistory
+- uid: GravyBot.IrcBotConfiguration.Nick
+  name: Nick
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Nick
+  commentId: P:GravyBot.IrcBotConfiguration.Nick
+  fullName: GravyBot.IrcBotConfiguration.Nick
+  nameWithType: IrcBotConfiguration.Nick
+- uid: GravyBot.IrcBotConfiguration.Nick*
+  name: Nick
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Nick_
+  commentId: Overload:GravyBot.IrcBotConfiguration.Nick
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.Nick
+  nameWithType: IrcBotConfiguration.Nick
+- uid: GravyBot.IrcBotConfiguration.NickServ
+  name: NickServ
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_NickServ
+  commentId: P:GravyBot.IrcBotConfiguration.NickServ
+  fullName: GravyBot.IrcBotConfiguration.NickServ
+  nameWithType: IrcBotConfiguration.NickServ
+- uid: GravyBot.IrcBotConfiguration.NickServ*
+  name: NickServ
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_NickServ_
+  commentId: Overload:GravyBot.IrcBotConfiguration.NickServ
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.NickServ
+  nameWithType: IrcBotConfiguration.NickServ
+- uid: GravyBot.IrcBotConfiguration.NotifyChannel
+  name: NotifyChannel
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_NotifyChannel
+  commentId: P:GravyBot.IrcBotConfiguration.NotifyChannel
+  fullName: GravyBot.IrcBotConfiguration.NotifyChannel
+  nameWithType: IrcBotConfiguration.NotifyChannel
+- uid: GravyBot.IrcBotConfiguration.NotifyChannel*
+  name: NotifyChannel
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_NotifyChannel_
+  commentId: Overload:GravyBot.IrcBotConfiguration.NotifyChannel
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.NotifyChannel
+  nameWithType: IrcBotConfiguration.NotifyChannel
+- uid: GravyBot.IrcBotConfiguration.Port
+  name: Port
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Port
+  commentId: P:GravyBot.IrcBotConfiguration.Port
+  fullName: GravyBot.IrcBotConfiguration.Port
+  nameWithType: IrcBotConfiguration.Port
+- uid: GravyBot.IrcBotConfiguration.Port*
+  name: Port
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Port_
+  commentId: Overload:GravyBot.IrcBotConfiguration.Port
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.Port
+  nameWithType: IrcBotConfiguration.Port
+- uid: GravyBot.IrcBotConfiguration.Server
+  name: Server
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Server
+  commentId: P:GravyBot.IrcBotConfiguration.Server
+  fullName: GravyBot.IrcBotConfiguration.Server
+  nameWithType: IrcBotConfiguration.Server
+- uid: GravyBot.IrcBotConfiguration.Server*
+  name: Server
+  href: api/GravyBot.IrcBotConfiguration.html#GravyBot_IrcBotConfiguration_Server_
+  commentId: Overload:GravyBot.IrcBotConfiguration.Server
+  isSpec: "True"
+  fullName: GravyBot.IrcBotConfiguration.Server
+  nameWithType: IrcBotConfiguration.Server
+- uid: GravyBot.IrcBotService
+  name: IrcBotService
+  href: api/GravyBot.IrcBotService.html
+  commentId: T:GravyBot.IrcBotService
+  fullName: GravyBot.IrcBotService
+  nameWithType: IrcBotService
+- uid: GravyBot.IrcBotService.#ctor(GravyBot.MessageQueueService,IOptions{GravyBot.IrcBotConfiguration},GravyBot.BotRulePipeline)
+  name: IrcBotService(MessageQueueService, IOptions<IrcBotConfiguration>, BotRulePipeline)
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService__ctor_GravyBot_MessageQueueService_IOptions_GravyBot_IrcBotConfiguration__GravyBot_BotRulePipeline_
+  commentId: M:GravyBot.IrcBotService.#ctor(GravyBot.MessageQueueService,IOptions{GravyBot.IrcBotConfiguration},GravyBot.BotRulePipeline)
+  name.vb: IrcBotService(MessageQueueService, IOptions(Of IrcBotConfiguration), BotRulePipeline)
+  fullName: GravyBot.IrcBotService.IrcBotService(GravyBot.MessageQueueService, IOptions<GravyBot.IrcBotConfiguration>, GravyBot.BotRulePipeline)
+  fullName.vb: GravyBot.IrcBotService.IrcBotService(GravyBot.MessageQueueService, IOptions(Of GravyBot.IrcBotConfiguration), GravyBot.BotRulePipeline)
+  nameWithType: IrcBotService.IrcBotService(MessageQueueService, IOptions<IrcBotConfiguration>, BotRulePipeline)
+  nameWithType.vb: IrcBotService.IrcBotService(MessageQueueService, IOptions(Of IrcBotConfiguration), BotRulePipeline)
+- uid: GravyBot.IrcBotService.#ctor*
+  name: IrcBotService
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService__ctor_
+  commentId: Overload:GravyBot.IrcBotService.#ctor
+  isSpec: "True"
+  fullName: GravyBot.IrcBotService.IrcBotService
+  nameWithType: IrcBotService.IrcBotService
+- uid: GravyBot.IrcBotService.ConnectAsync
+  name: ConnectAsync()
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_ConnectAsync
+  commentId: M:GravyBot.IrcBotService.ConnectAsync
+  fullName: GravyBot.IrcBotService.ConnectAsync()
+  nameWithType: IrcBotService.ConnectAsync()
+- uid: GravyBot.IrcBotService.ConnectAsync*
+  name: ConnectAsync
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_ConnectAsync_
+  commentId: Overload:GravyBot.IrcBotService.ConnectAsync
+  isSpec: "True"
+  fullName: GravyBot.IrcBotService.ConnectAsync
+  nameWithType: IrcBotService.ConnectAsync
+- uid: GravyBot.IrcBotService.Dispose
+  name: Dispose()
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_Dispose
+  commentId: M:GravyBot.IrcBotService.Dispose
+  fullName: GravyBot.IrcBotService.Dispose()
+  nameWithType: IrcBotService.Dispose()
+- uid: GravyBot.IrcBotService.Dispose*
+  name: Dispose
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_Dispose_
+  commentId: Overload:GravyBot.IrcBotService.Dispose
+  isSpec: "True"
+  fullName: GravyBot.IrcBotService.Dispose
+  nameWithType: IrcBotService.Dispose
+- uid: GravyBot.IrcBotService.JoinChannel(System.String)
+  name: JoinChannel(String)
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_JoinChannel_System_String_
+  commentId: M:GravyBot.IrcBotService.JoinChannel(System.String)
+  fullName: GravyBot.IrcBotService.JoinChannel(System.String)
+  nameWithType: IrcBotService.JoinChannel(String)
+- uid: GravyBot.IrcBotService.JoinChannel*
+  name: JoinChannel
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_JoinChannel_
+  commentId: Overload:GravyBot.IrcBotService.JoinChannel
+  isSpec: "True"
+  fullName: GravyBot.IrcBotService.JoinChannel
+  nameWithType: IrcBotService.JoinChannel
+- uid: GravyBot.IrcBotService.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_StartAsync_CancellationToken_
+  commentId: M:GravyBot.IrcBotService.StartAsync(CancellationToken)
+  fullName: GravyBot.IrcBotService.StartAsync(CancellationToken)
+  nameWithType: IrcBotService.StartAsync(CancellationToken)
+- uid: GravyBot.IrcBotService.StartAsync*
+  name: StartAsync
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_StartAsync_
+  commentId: Overload:GravyBot.IrcBotService.StartAsync
+  isSpec: "True"
+  fullName: GravyBot.IrcBotService.StartAsync
+  nameWithType: IrcBotService.StartAsync
+- uid: GravyBot.IrcBotService.StopAsync(CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_StopAsync_CancellationToken_
+  commentId: M:GravyBot.IrcBotService.StopAsync(CancellationToken)
+  fullName: GravyBot.IrcBotService.StopAsync(CancellationToken)
+  nameWithType: IrcBotService.StopAsync(CancellationToken)
+- uid: GravyBot.IrcBotService.StopAsync*
+  name: StopAsync
+  href: api/GravyBot.IrcBotService.html#GravyBot_IrcBotService_StopAsync_
+  commentId: Overload:GravyBot.IrcBotService.StopAsync
+  isSpec: "True"
+  fullName: GravyBot.IrcBotService.StopAsync
+  nameWithType: IrcBotService.StopAsync
+- uid: GravyBot.IrcValues
+  name: IrcValues
+  href: api/GravyBot.IrcValues.html
+  commentId: T:GravyBot.IrcValues
+  fullName: GravyBot.IrcValues
+  nameWithType: IrcValues
+- uid: GravyBot.IrcValues.AQUA
+  name: AQUA
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_AQUA
+  commentId: F:GravyBot.IrcValues.AQUA
+  fullName: GravyBot.IrcValues.AQUA
+  nameWithType: IrcValues.AQUA
+- uid: GravyBot.IrcValues.BLACK
+  name: BLACK
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_BLACK
+  commentId: F:GravyBot.IrcValues.BLACK
+  fullName: GravyBot.IrcValues.BLACK
+  nameWithType: IrcValues.BLACK
+- uid: GravyBot.IrcValues.BLUE
+  name: BLUE
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_BLUE
+  commentId: F:GravyBot.IrcValues.BLUE
+  fullName: GravyBot.IrcValues.BLUE
+  nameWithType: IrcValues.BLUE
+- uid: GravyBot.IrcValues.BOLD
+  name: BOLD
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_BOLD
+  commentId: F:GravyBot.IrcValues.BOLD
+  fullName: GravyBot.IrcValues.BOLD
+  nameWithType: IrcValues.BOLD
+- uid: GravyBot.IrcValues.BROWN
+  name: BROWN
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_BROWN
+  commentId: F:GravyBot.IrcValues.BROWN
+  fullName: GravyBot.IrcValues.BROWN
+  nameWithType: IrcValues.BROWN
+- uid: GravyBot.IrcValues.GREEN
+  name: GREEN
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_GREEN
+  commentId: F:GravyBot.IrcValues.GREEN
+  fullName: GravyBot.IrcValues.GREEN
+  nameWithType: IrcValues.GREEN
+- uid: GravyBot.IrcValues.GREY
+  name: GREY
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_GREY
+  commentId: F:GravyBot.IrcValues.GREY
+  fullName: GravyBot.IrcValues.GREY
+  nameWithType: IrcValues.GREY
+- uid: GravyBot.IrcValues.ITALIC
+  name: ITALIC
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_ITALIC
+  commentId: F:GravyBot.IrcValues.ITALIC
+  fullName: GravyBot.IrcValues.ITALIC
+  nameWithType: IrcValues.ITALIC
+- uid: GravyBot.IrcValues.LIME
+  name: LIME
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_LIME
+  commentId: F:GravyBot.IrcValues.LIME
+  fullName: GravyBot.IrcValues.LIME
+  nameWithType: IrcValues.LIME
+- uid: GravyBot.IrcValues.MAX_BYTES
+  name: MAX_BYTES
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_MAX_BYTES
+  commentId: F:GravyBot.IrcValues.MAX_BYTES
+  fullName: GravyBot.IrcValues.MAX_BYTES
+  nameWithType: IrcValues.MAX_BYTES
+- uid: GravyBot.IrcValues.ORANGE
+  name: ORANGE
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_ORANGE
+  commentId: F:GravyBot.IrcValues.ORANGE
+  fullName: GravyBot.IrcValues.ORANGE
+  nameWithType: IrcValues.ORANGE
+- uid: GravyBot.IrcValues.PINK
+  name: PINK
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_PINK
+  commentId: F:GravyBot.IrcValues.PINK
+  fullName: GravyBot.IrcValues.PINK
+  nameWithType: IrcValues.PINK
+- uid: GravyBot.IrcValues.PURPLE
+  name: PURPLE
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_PURPLE
+  commentId: F:GravyBot.IrcValues.PURPLE
+  fullName: GravyBot.IrcValues.PURPLE
+  nameWithType: IrcValues.PURPLE
+- uid: GravyBot.IrcValues.RED
+  name: RED
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_RED
+  commentId: F:GravyBot.IrcValues.RED
+  fullName: GravyBot.IrcValues.RED
+  nameWithType: IrcValues.RED
+- uid: GravyBot.IrcValues.RESET
+  name: RESET
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_RESET
+  commentId: F:GravyBot.IrcValues.RESET
+  fullName: GravyBot.IrcValues.RESET
+  nameWithType: IrcValues.RESET
+- uid: GravyBot.IrcValues.ROYAL
+  name: ROYAL
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_ROYAL
+  commentId: F:GravyBot.IrcValues.ROYAL
+  fullName: GravyBot.IrcValues.ROYAL
+  nameWithType: IrcValues.ROYAL
+- uid: GravyBot.IrcValues.SILVER
+  name: SILVER
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_SILVER
+  commentId: F:GravyBot.IrcValues.SILVER
+  fullName: GravyBot.IrcValues.SILVER
+  nameWithType: IrcValues.SILVER
+- uid: GravyBot.IrcValues.TEAL
+  name: TEAL
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_TEAL
+  commentId: F:GravyBot.IrcValues.TEAL
+  fullName: GravyBot.IrcValues.TEAL
+  nameWithType: IrcValues.TEAL
+- uid: GravyBot.IrcValues.UNDERLINE
+  name: UNDERLINE
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_UNDERLINE
+  commentId: F:GravyBot.IrcValues.UNDERLINE
+  fullName: GravyBot.IrcValues.UNDERLINE
+  nameWithType: IrcValues.UNDERLINE
+- uid: GravyBot.IrcValues.WHITE
+  name: WHITE
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_WHITE
+  commentId: F:GravyBot.IrcValues.WHITE
+  fullName: GravyBot.IrcValues.WHITE
+  nameWithType: IrcValues.WHITE
+- uid: GravyBot.IrcValues.YELLOW
+  name: YELLOW
+  href: api/GravyBot.IrcValues.html#GravyBot_IrcValues_YELLOW
+  commentId: F:GravyBot.IrcValues.YELLOW
+  fullName: GravyBot.IrcValues.YELLOW
+  nameWithType: IrcValues.YELLOW
+- uid: GravyBot.MessageQueueService
+  name: MessageQueueService
+  href: api/GravyBot.MessageQueueService.html
+  commentId: T:GravyBot.MessageQueueService
+  fullName: GravyBot.MessageQueueService
+  nameWithType: MessageQueueService
+- uid: GravyBot.MessageQueueService.#ctor(IServiceProvider,IOptions{GravyBot.IrcBotConfiguration})
+  name: MessageQueueService(IServiceProvider, IOptions<IrcBotConfiguration>)
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService__ctor_IServiceProvider_IOptions_GravyBot_IrcBotConfiguration__
+  commentId: M:GravyBot.MessageQueueService.#ctor(IServiceProvider,IOptions{GravyBot.IrcBotConfiguration})
+  name.vb: MessageQueueService(IServiceProvider, IOptions(Of IrcBotConfiguration))
+  fullName: GravyBot.MessageQueueService.MessageQueueService(IServiceProvider, IOptions<GravyBot.IrcBotConfiguration>)
+  fullName.vb: GravyBot.MessageQueueService.MessageQueueService(IServiceProvider, IOptions(Of GravyBot.IrcBotConfiguration))
+  nameWithType: MessageQueueService.MessageQueueService(IServiceProvider, IOptions<IrcBotConfiguration>)
+  nameWithType.vb: MessageQueueService.MessageQueueService(IServiceProvider, IOptions(Of IrcBotConfiguration))
+- uid: GravyBot.MessageQueueService.#ctor*
+  name: MessageQueueService
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService__ctor_
+  commentId: Overload:GravyBot.MessageQueueService.#ctor
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.MessageQueueService
+  nameWithType: MessageQueueService.MessageQueueService
+- uid: GravyBot.MessageQueueService.GetHistory
+  name: GetHistory()
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_GetHistory
+  commentId: M:GravyBot.MessageQueueService.GetHistory
+  fullName: GravyBot.MessageQueueService.GetHistory()
+  nameWithType: MessageQueueService.GetHistory()
+- uid: GravyBot.MessageQueueService.GetHistory*
+  name: GetHistory
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_GetHistory_
+  commentId: Overload:GravyBot.MessageQueueService.GetHistory
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.GetHistory
+  nameWithType: MessageQueueService.GetHistory
+- uid: GravyBot.MessageQueueService.GetOutputHistory
+  name: GetOutputHistory()
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_GetOutputHistory
+  commentId: M:GravyBot.MessageQueueService.GetOutputHistory
+  fullName: GravyBot.MessageQueueService.GetOutputHistory()
+  nameWithType: MessageQueueService.GetOutputHistory()
+- uid: GravyBot.MessageQueueService.GetOutputHistory*
+  name: GetOutputHistory
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_GetOutputHistory_
+  commentId: Overload:GravyBot.MessageQueueService.GetOutputHistory
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.GetOutputHistory
+  nameWithType: MessageQueueService.GetOutputHistory
+- uid: GravyBot.MessageQueueService.MessageAdded
+  name: MessageAdded
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_MessageAdded
+  commentId: E:GravyBot.MessageQueueService.MessageAdded
+  fullName: GravyBot.MessageQueueService.MessageAdded
+  nameWithType: MessageQueueService.MessageAdded
+- uid: GravyBot.MessageQueueService.PopAll
+  name: PopAll()
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_PopAll
+  commentId: M:GravyBot.MessageQueueService.PopAll
+  fullName: GravyBot.MessageQueueService.PopAll()
+  nameWithType: MessageQueueService.PopAll()
+- uid: GravyBot.MessageQueueService.PopAll*
+  name: PopAll
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_PopAll_
+  commentId: Overload:GravyBot.MessageQueueService.PopAll
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.PopAll
+  nameWithType: MessageQueueService.PopAll
+- uid: GravyBot.MessageQueueService.Push*
+  name: Push
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_Push_
+  commentId: Overload:GravyBot.MessageQueueService.Push
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.Push
+  nameWithType: MessageQueueService.Push
+- uid: GravyBot.MessageQueueService.Push``1(``0)
+  name: Push<TMessage>(TMessage)
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_Push__1___0_
+  commentId: M:GravyBot.MessageQueueService.Push``1(``0)
+  name.vb: Push(Of TMessage)(TMessage)
+  fullName: GravyBot.MessageQueueService.Push<TMessage>(TMessage)
+  fullName.vb: GravyBot.MessageQueueService.Push(Of TMessage)(TMessage)
+  nameWithType: MessageQueueService.Push<TMessage>(TMessage)
+  nameWithType.vb: MessageQueueService.Push(Of TMessage)(TMessage)
+- uid: GravyBot.MessageQueueService.PushRaw(IClientMessage)
+  name: PushRaw(IClientMessage)
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_PushRaw_IClientMessage_
+  commentId: M:GravyBot.MessageQueueService.PushRaw(IClientMessage)
+  fullName: GravyBot.MessageQueueService.PushRaw(IClientMessage)
+  nameWithType: MessageQueueService.PushRaw(IClientMessage)
+- uid: GravyBot.MessageQueueService.PushRaw*
+  name: PushRaw
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_PushRaw_
+  commentId: Overload:GravyBot.MessageQueueService.PushRaw
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.PushRaw
+  nameWithType: MessageQueueService.PushRaw
+- uid: GravyBot.MessageQueueService.Remove(IClientMessage)
+  name: Remove(IClientMessage)
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_Remove_IClientMessage_
+  commentId: M:GravyBot.MessageQueueService.Remove(IClientMessage)
+  fullName: GravyBot.MessageQueueService.Remove(IClientMessage)
+  nameWithType: MessageQueueService.Remove(IClientMessage)
+- uid: GravyBot.MessageQueueService.Remove*
+  name: Remove
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_Remove_
+  commentId: Overload:GravyBot.MessageQueueService.Remove
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.Remove
+  nameWithType: MessageQueueService.Remove
+- uid: GravyBot.MessageQueueService.ViewAll
+  name: ViewAll()
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_ViewAll
+  commentId: M:GravyBot.MessageQueueService.ViewAll
+  fullName: GravyBot.MessageQueueService.ViewAll()
+  nameWithType: MessageQueueService.ViewAll()
+- uid: GravyBot.MessageQueueService.ViewAll*
+  name: ViewAll
+  href: api/GravyBot.MessageQueueService.html#GravyBot_MessageQueueService_ViewAll_
+  commentId: Overload:GravyBot.MessageQueueService.ViewAll
+  isSpec: "True"
+  fullName: GravyBot.MessageQueueService.ViewAll
+  nameWithType: MessageQueueService.ViewAll
+- uid: GravyBot.MessageRuleBase`1
+  name: MessageRuleBase<TMessage>
+  href: api/GravyBot.MessageRuleBase-1.html
+  commentId: T:GravyBot.MessageRuleBase`1
+  name.vb: MessageRuleBase(Of TMessage)
+  fullName: GravyBot.MessageRuleBase<TMessage>
+  fullName.vb: GravyBot.MessageRuleBase(Of TMessage)
+  nameWithType: MessageRuleBase<TMessage>
+  nameWithType.vb: MessageRuleBase(Of TMessage)
+- uid: GravyBot.MessageRuleBase`1.EmptyResult
+  name: EmptyResult()
+  href: api/GravyBot.MessageRuleBase-1.html#GravyBot_MessageRuleBase_1_EmptyResult
+  commentId: M:GravyBot.MessageRuleBase`1.EmptyResult
+  fullName: GravyBot.MessageRuleBase<TMessage>.EmptyResult()
+  fullName.vb: GravyBot.MessageRuleBase(Of TMessage).EmptyResult()
+  nameWithType: MessageRuleBase<TMessage>.EmptyResult()
+  nameWithType.vb: MessageRuleBase(Of TMessage).EmptyResult()
+- uid: GravyBot.MessageRuleBase`1.EmptyResult*
+  name: EmptyResult
+  href: api/GravyBot.MessageRuleBase-1.html#GravyBot_MessageRuleBase_1_EmptyResult_
+  commentId: Overload:GravyBot.MessageRuleBase`1.EmptyResult
+  isSpec: "True"
+  fullName: GravyBot.MessageRuleBase<TMessage>.EmptyResult
+  fullName.vb: GravyBot.MessageRuleBase(Of TMessage).EmptyResult
+  nameWithType: MessageRuleBase<TMessage>.EmptyResult
+  nameWithType.vb: MessageRuleBase(Of TMessage).EmptyResult
+- uid: GravyBot.MessageRuleBase`1.Respond(`0)
+  name: Respond(TMessage)
+  href: api/GravyBot.MessageRuleBase-1.html#GravyBot_MessageRuleBase_1_Respond__0_
+  commentId: M:GravyBot.MessageRuleBase`1.Respond(`0)
+  fullName: GravyBot.MessageRuleBase<TMessage>.Respond(TMessage)
+  fullName.vb: GravyBot.MessageRuleBase(Of TMessage).Respond(TMessage)
+  nameWithType: MessageRuleBase<TMessage>.Respond(TMessage)
+  nameWithType.vb: MessageRuleBase(Of TMessage).Respond(TMessage)
+- uid: GravyBot.MessageRuleBase`1.Respond(System.Object)
+  name: Respond(Object)
+  href: api/GravyBot.MessageRuleBase-1.html#GravyBot_MessageRuleBase_1_Respond_System_Object_
+  commentId: M:GravyBot.MessageRuleBase`1.Respond(System.Object)
+  fullName: GravyBot.MessageRuleBase<TMessage>.Respond(System.Object)
+  fullName.vb: GravyBot.MessageRuleBase(Of TMessage).Respond(System.Object)
+  nameWithType: MessageRuleBase<TMessage>.Respond(Object)
+  nameWithType.vb: MessageRuleBase(Of TMessage).Respond(Object)
+- uid: GravyBot.MessageRuleBase`1.Respond*
+  name: Respond
+  href: api/GravyBot.MessageRuleBase-1.html#GravyBot_MessageRuleBase_1_Respond_
+  commentId: Overload:GravyBot.MessageRuleBase`1.Respond
+  isSpec: "True"
+  fullName: GravyBot.MessageRuleBase<TMessage>.Respond
+  fullName.vb: GravyBot.MessageRuleBase(Of TMessage).Respond
+  nameWithType: MessageRuleBase<TMessage>.Respond
+  nameWithType.vb: MessageRuleBase(Of TMessage).Respond
